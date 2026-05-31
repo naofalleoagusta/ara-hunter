@@ -51,14 +51,16 @@ export function useScanResults(args?: {
 
 export function useStockDetail(args?: {
   variables?: { ticker: string; period?: string }
+  initialData?: StockDetailResponse
 }) {
-  const { variables = { ticker: "", period: "1mo" } } = args || {}
+  const { variables = { ticker: "", period: "1mo" }, initialData } = args || {}
   return useQuery<StockDetailResponse, Error>({
     queryKey: ["/api/stocks", variables],
     queryFn: () => api.getStockDetail(variables.ticker, variables.period ?? "1mo"),
     placeholderData: (prev) => prev,
     enabled: variables.ticker.length > 0,
     staleTime: 60 * 1000,
+    initialData,
   })
 }
 

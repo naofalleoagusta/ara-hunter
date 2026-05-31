@@ -1,3 +1,5 @@
+import { memo } from "react"
+
 interface SkeletonProps {
   width?: string
   height?: string
@@ -5,7 +7,7 @@ interface SkeletonProps {
   variant?: "card" | "text" | "chart"
 }
 
-export default function Skeleton({ width, height, className = "", variant = "text" }: SkeletonProps) {
+const Skeleton = memo(function Skeleton({ width, height, className = "", variant = "text" }: SkeletonProps) {
   const base = "animate-pulse bg-border/60 rounded-lg"
 
   if (variant === "card") {
@@ -26,4 +28,6 @@ export default function Skeleton({ width, height, className = "", variant = "tex
   }
 
   return <div className={`${base} ${className}`} style={{ width, height }} />
-}
+})
+
+export default Skeleton

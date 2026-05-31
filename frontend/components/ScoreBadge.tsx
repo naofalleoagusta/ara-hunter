@@ -1,10 +1,12 @@
+import { memo } from "react"
+
 interface ScoreBadgeProps {
   score: number | null
   size?: "sm" | "md" | "lg"
   showSignal?: boolean
 }
 
-export default function ScoreBadge({ score, size = "md", showSignal }: ScoreBadgeProps) {
+const ScoreBadge = memo(function ScoreBadge({ score, size = "md", showSignal }: ScoreBadgeProps) {
   if (score == null) return <span className="text-text-muted">-</span>
 
   const signal =
@@ -41,4 +43,6 @@ export default function ScoreBadge({ score, size = "md", showSignal }: ScoreBadg
       )}
     </span>
   )
-}
+})
+
+export default ScoreBadge

@@ -1,3 +1,5 @@
+import { memo } from "react"
+
 interface MetricCardProps {
   label: string
   value: string | number | null | undefined
@@ -5,7 +7,7 @@ interface MetricCardProps {
   trend?: "up" | "down" | null
 }
 
-export default function MetricCard({ label, value, delta, trend }: MetricCardProps) {
+const MetricCard = memo(function MetricCard({ label, value, delta, trend }: MetricCardProps) {
   return (
     <div className="bg-card border border-border rounded-xl p-5 transition duration-200 hover:border-accent/30 hover:bg-card-hover">
       <div className="text-xs text-text-muted font-medium uppercase tracking-wider mb-1.5">{label}</div>
@@ -17,4 +19,6 @@ export default function MetricCard({ label, value, delta, trend }: MetricCardPro
       )}
     </div>
   )
-}
+})
+
+export default MetricCard
