@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #f8f6f3;
+  --color-card: #ffffff;
+  --color-card-hover: #f0ece6;
+  --color-border: #e6e0d6;
+  --color-accent: #c84b31;
+  --color-accent-glow: #e05a3a;
+  --color-green: #2e7d32;
+  --color-red: #c62828;
+  --color-amber: #e67e22;
+  --color-blue: #1565c0;
+  --color-text: #1a1a1a;
+  --color-text-muted: #8a8580;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: #d4cec4;
+  border-radius: 3px;
+  outline: none;
+}
+
+.animate-in {
+  animation: fadeSlideIn 0.4s ease-out both;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #c84b31;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 1px rgba(200, 75, 49, 0.3);
+}

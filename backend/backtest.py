@@ -1,0 +1,252 @@
+#!/usr/bin/env python3
+import json
+import os
+import sys
+import time
+from collections import Counter
+from datetime import datetime, timedelta
+from typing import Any
+
+import pandas as pd
+
+import yfinance as yf
+from tqdm import tqdm
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from data.yahoo_fetcher import calculate_indicators
+from screening.indicators import get_ara_limit_pct, calculate_ara_proximity_atr
+from screening.scorer import compute_total_score
+
+STOCKS_JSON = os.path.join(os.path.dirname(__file__), "data", "stocks.json")
+RESULTS_FILE = os.path.join(os.path.dirname(__file__), "backtest_results.json")
+TOP_N = 20
+LOOKAHEAD = 5
+BATCH_SIZE = 100
+
+
+def batch_download(ticker_codes, start, end, batch_size=BATCH_SIZE):
+    all_data = {}
+    for i in range(0, len(ticker_codes), batch_size):
+        batch = ticker_codes[i : i + batch_size]
+        ytickers = [f"{t}.JK" for t in batch]
+        try:
+            ticker_str = " ".join(ytickers)
+            data = yf.download(
+                ticker_str,
+                start=start,
+                end=end,
+                group_by="ticker",
+                progress=False,
+                auto_adjust=True,
+            )
+            if data.empty:
+                continue
+            for yt in ytickers:
+                ticker = yt.replace(".JK", "")
+                try:
+                    if isinstance(data.columns, pd.MultiIndex):
+                        if yt in data.columns.get_level_values(0):
+                            td = data.xs(yt, axis=1, level=0).dropna()
+                            if not td.empty:
+                                all_data[ticker] = td
+                    else:
+                        all_data[batch[0]] = data.dropna()
+                except Exception:
+                    continue
+        except Exception:
+            pass
+        if i + batch_size < len(ticker_codes):
+            time.sleep(0.3)
+    return all_data
+
+
+def fetch_single_stock(ticker, start, end):
+    try:
+        stock = yf.Ticker(f"{ticker}.JK")
+        df = stock.history(start=start, end=end, auto_adjust=True)
+        return df if not df.empty else None
+    except Exception:
+        return None
+
+
+def get_weekly_dates(weeks_back=26):
+    today = datetime.now().date()
+    current = today
+    while current.weekday() != 2:
+        current -= timedelta(days=1)
+    dates = []
+    end_date = current - timedelta(weeks=weeks_back - 1)
+    d = current
+    while d >= end_date:
+        dates.append(d)
+        d -= timedelta(weeks=1)
+    dates.reverse()
+    return dates
+
+
+def build_universe():
+    with open(STOCKS_JSON) as f:
+        stocks = json.load(f)
+    codes = [s["kode"] for s in stocks]
+    print(f"Using all {len(codes)} stocks from IDX")
+    return codes
+
+
+def run_backtest():
+    os.makedirs(os.path.dirname(__file__), exist_ok=True)
+    universe = build_universe()
+
+    dates = get_weekly_dates(weeks_back=52)
+    today = datetime.now().date()
+    dates = [d for d in dates if d + timedelta(days=LOOKAHEAD * 2 + 2) <= today]
+
+    print(
+        f"\nRunning backtest on {len(universe)} stocks over {len(dates)} weeks"
+    )
+    print(f"Period: {dates[0]} to {dates[-1]} ({len(dates)} weeks)\n")
+
+    all_results = []
+
+    for date_idx, d in enumerate(tqdm(dates, desc="Backtesting")):
+        hist_start = d - timedelta(days=120)
+        hist_end = d + timedelta(days=1)
+        hist_data = batch_download(universe, hist_start, hist_end, batch_size=BATCH_SIZE)
+
+        scored = []
+        for ticker in universe:
+            df = hist_data.get(ticker)
+            if df is None or df.empty:
+                continue
+            if len(df) < 20:
+                continue
+            indicators = calculate_indicators(df)
+            price = indicators.get("current_price")
+            if price is None or price <= 0:
+                continue
+            ara_limit = get_ara_limit_pct(price)
+            if ara_limit is None:
+                continue
+            indicators["ara_limit_pct"] = ara_limit
+            indicators["ara_proximity_pct"] = calculate_ara_proximity_atr(price, ara_limit, indicators.get("atr_pct_14"))
+            scores = compute_total_score(indicators)
+            total = scores.get("total_score", 0)
+            scored.append(
+                {
+                    "ticker": ticker,
+                    "price": price,
+                    "ara_limit_pct": ara_limit,
+                    "total_score": total,
+                    "indicators": indicators,
+                    "scores": scores,
+                }
+            )
+
+        scored.sort(key=lambda x: x["total_score"], reverse=True)
+        top = scored[:TOP_N]
+
+        fwd_start = d + timedelta(days=1)
+        fwd_end = d + timedelta(days=12)
+        fwd_tickers = [s["ticker"] for s in top]
+        fwd_data = {}
+        for t in fwd_tickers:
+            df = fetch_single_stock(t, fwd_start, fwd_end)
+            if df is not None and not df.empty:
+                fwd_data[t] = df
+
+        for rank, stock in enumerate(top, 1):
+            ticker = stock["ticker"]
+            price_on_d = stock["price"]
+            ara_limit = stock["ara_limit_pct"]
+            ara_price = price_on_d * (1 + ara_limit / 100)
+            fdf = fwd_data.get(ticker)
+            hit_ara = False
+            best_return = 0.0
+            if fdf is not None and not fdf.empty:
+                check_df = fdf.head(LOOKAHEAD)
+                if not check_df.empty:
+                    highs = check_df["High"].values
+                    if any(h >= ara_price for h in highs):
+                        hit_ara = True
+                    best_return = round(
+                        float((check_df["High"].max() / price_on_d - 1) * 100), 2
+                    )
+
+            all_results.append(
+                {
+                    "date": d.isoformat(),
+                    "ticker": ticker,
+                    "score": stock["total_score"],
+                    "rank": rank,
+                    "price": price_on_d,
+                    "ara_limit": ara_limit,
+                    "ara_price": round(ara_price, 2),
+                    "hit_ara": hit_ara,
+                    "best_return": best_return,
+                }
+            )
+
+    generate_report(all_results, dates)
+    with open(RESULTS_FILE, "w") as f:
+        json.dump(all_results, f, indent=2, default=str)
+    print(f"\nDetailed results saved to {RESULTS_FILE}")
+
+
+def generate_report(results, dates):
+    print("\n" + "=" * 60)
+    print("=== Backtest Results ===")
+    print("=" * 60)
+    print(
+        f"Period: {dates[0]} to {dates[-1]} ({len(dates)} weeks)"
+    )
+
+    distinct_tickers = set(r["ticker"] for r in results)
+    print(f"Universe: {len(distinct_tickers)} stocks")
+    print(f"Total observations: {len(results)}")
+    print()
+
+    for k in [5, 10, 20]:
+        top_k = [r for r in results if r["rank"] <= k]
+        hits = sum(1 for r in top_k if r["hit_ara"])
+        pct = (hits / len(top_k) * 100) if top_k else 0
+        print(
+            f"Precision@{k}: {pct:.1f}%  (top {k} -> hit ARA within {LOOKAHEAD} days)"
+        )
+
+    print("\nScore Bracket Analysis:")
+    brackets = [
+        (70, 100, "70-100"),
+        (50, 69, "50-69"),
+        (30, 49, "30-49"),
+        (0, 29, "<30"),
+    ]
+    for lo, hi, label in brackets:
+        bracket = [r for r in results if lo <= r["score"] <= hi]
+        if bracket:
+            hits = sum(1 for r in bracket if r["hit_ara"])
+            pct = hits / len(bracket) * 100
+            print(f"  {label:>5}: {pct:.1f}% hit rate ({len(bracket)} obs)")
+        else:
+            print(f"  {label:>5}: N/A (0 observations)")
+
+    print(f"\nTop 10 Most Frequent ARA Hitters (within {LOOKAHEAD} days):")
+    ticker_hits = Counter(r["ticker"] for r in results if r["hit_ara"])
+    for ticker, count in ticker_hits.most_common(10):
+        print(f"  {ticker}: hit {count} times")
+
+    # Also show top 10 by average return (conditional on being in top 20)
+    print("\nTop 10 by Average Best Return (when ranked):")
+    ticker_returns = {}
+    for r in results:
+        ticker_returns.setdefault(r["ticker"], []).append(r["best_return"])
+    avg_returns = {
+        t: round(sum(v) / len(v), 2) for t, v in ticker_returns.items()
+    }
+    for ticker, avg_ret in sorted(
+        avg_returns.items(), key=lambda x: x[1], reverse=True
+    )[:10]:
+        print(f"  {ticker}: {avg_ret:.2f}% avg return")
+
+
+if __name__ == "__main__":
+    run_backtest()
