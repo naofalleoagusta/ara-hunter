@@ -29,3 +29,9 @@ updated: 2026-05-31
 - "Make it better" → expect visual polish, not just functional changes
 - Move standalone card content into contextual toolbars
 - Data quality concerns about holiday noise in scores → filter zero-volume days
+
+## ML & Backtest
+- [feedback] Overall hit rate concern (below 40%) → raised ML threshold to 0.6 (achieved 66% hit rate)
+- [feedback] Score-centric UI should be ML-first → flipped dashboard/results/detail to ML primary display
+- [feedback] Wants rating analysis to factor in ML probability → StockRatingReasoning now has ML Confidence section as first factor
+- [feedback] 2-year backtest is noisier than recent 50-week data → stick with recent data for training

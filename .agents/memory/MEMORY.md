@@ -14,6 +14,10 @@
 - [project] UI components in `frontend/components/`, API in `lib/api.ts`, queries in `lib/queries.ts` → project-conventions.md
 - [project] recharts should be dynamically imported (next/dynamic) for bundle savings → project-conventions.md
 - [project] Filter out zero-volume days from yfinance data before computing indicators → project-conventions.md
+- [project] ML-based two-stage ranking: scorer top 50 → ML re-rank (RF 300 trees) → dynamic threshold → project-conventions.md
+- [project] ML confidence thresholds: >=0.6 High, >=0.5 Medium, <0.5 Low → project-conventions.md
+- [project] Frontend ML-first: MLConfidenceBadge primary, ScoreBadge secondary → project-conventions.md
+- [project] Backtest: 70% Precision@1, 66% hit rate at prob >= 0.6 (50-week recent data) → project-conventions.md
 
 ## Feedback
 - [feedback] Likes factor cards with score bars in rating analysis → feedback-history.md

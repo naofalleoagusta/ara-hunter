@@ -43,6 +43,30 @@ updated: 2026-05-31
 - Scoring logic in `backend/screening/scorer.py`
 - Indicators in `backend/data/yahoo_fetcher.py` (calculate_indicators)
 
+## ML Model
+- Random Forest (300 trees, max_depth=5, min_samples_leaf=10, class_weight='balanced')
+- Training: 1000 observations from 50-week backtest (208 ARA hits, 792 misses)
+- 22 features: raw indicators + engineered (acceleration, vol_x_mom, rsi_sq, bb_x_rsi, up_ratio, room_pct, price_tier, log_price)
+- Two-stage ranking: scorer top 50 → ML re-rank → dynamic threshold (default 0.6)
+- Backtest (50wk recent data): Precision@1=70.6%, hit rate @0.6=66.2%, @0.5=58.6%
+- 2-year backtest underperforms (noisier older data) — use recent 50wk model
+- Training pipeline: `backend/ml_train.py`, prediction: `backend/ara_ml.py`
+- Model saved as `backend/ara_predictor.pkl` via joblib (lazy-loaded in ara_ml.py)
+
+## ML Confidence Thresholds (Frontend)
+  | Level  | Range       | Color |
+  |--------|-------------|-------|
+  | High   | prob >= 0.6 | Green |
+  | Medium | prob >= 0.5 | Amber |
+  | Low    | prob < 0.5  | Muted |
+
+## ML-First UI
+- Dashboard: MLConfidenceBadge primary on cards, "High confidence" count, Top ML Confidence metric
+- Results page: sorted by ml_prob, Prob column shown
+- Stock detail: MLConfidenceBadge in header before ScoreBadge, ML Confidence metric card, Prob in history
+- StockRatingReasoning: ML Confidence section as first factor card, ML-first summary text
+- MLConfidenceBadge component shares same styling pattern as ScoreBadge
+
 ## Performance Patterns
 - Heavy chart libraries (recharts) imported via `next/dynamic` with `ssr: false`
 - Expensive computations wrapped in `useMemo`
