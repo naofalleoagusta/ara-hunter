@@ -173,6 +173,8 @@ def calculate_indicators(df: pd.DataFrame) -> dict[str, Any]:
         return {}
 
     df = df[df["Volume"] > 0].copy()
+    if df.empty:
+        return {}
 
     close = df["Close"]
     volume = df["Volume"]

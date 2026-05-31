@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 
 from data.idx_client import IDXClient
 from data.yahoo_fetcher import fetch_historical, calculate_indicators
-from screening.indicators import get_ara_limit_pct, calculate_ara_proximity_atr
+from screening.indicators import get_ara_limit_pct, calculate_ara_remaining_pct
 from screening.scorer import compute_total_score
 from models import ScreeningSession, ScreeningResult, MarketSnapshot
 
@@ -44,10 +44,10 @@ def run_screening(db: Session, session: ScreeningSession | None = None) -> int:
             indicators = calculate_indicators(df)
             price = indicators.get("current_price")
 
-            ara_limit = get_ara_limit_pct(price)
-            ara_proximity = calculate_ara_proximity_atr(price, ara_limit, indicators.get("atr_pct_14"))
+            ara_limit = get_ara_limit_pct(board=company.get("papan", ""), price=price)
+            ara_remaining = calculate_ara_remaining_pct(price, ara_limit, indicators.get("price_change_1d"))
             indicators["ara_limit_pct"] = ara_limit
-            indicators["ara_proximity_pct"] = ara_proximity
+            indicators["ara_remaining_pct"] = ara_remaining
 
             scores = compute_total_score(indicators)
 
@@ -68,7 +68,7 @@ def run_screening(db: Session, session: ScreeningSession | None = None) -> int:
                 "macd_bullish": indicators.get("macd_bullish"),
                 "consecutive_up_days": indicators.get("consecutive_up_days"),
                 "ara_limit_pct": ara_limit,
-                "ara_proximity_pct": ara_proximity,
+                "ara_proximity_pct": ara_remaining,
                 **scores,
             })
 

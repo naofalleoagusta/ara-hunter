@@ -1,30 +1,20 @@
-ARA_LIMITS = [
-    (50, 200, 35.0),
-    (200, 500, 25.0),
-    (500, 5000, 15.0),
-    (5000, float("inf"), 7.0),
-]
+ARA_LIMITS_BY_BOARD: dict[str, float] = {
+    "Utama": 25.0,
+    "Pengembangan": 25.0,
+    "Akselerasi": 35.0,
+}
 
 
-def get_ara_limit_pct(price: float | None) -> float | None:
-    if price is None or price <= 0:
+def get_ara_limit_pct(board: str | None, price: float | None = None) -> float | None:
+    if board and board in ARA_LIMITS_BY_BOARD:
+        return ARA_LIMITS_BY_BOARD[board]
+    if price is not None and price > 0:
+        return 25.0
+    return None
+
+
+def calculate_ara_remaining_pct(price: float | None, ara_limit_pct: float | None, price_change_1d: float | None) -> float | None:
+    if price is None or ara_limit_pct is None or price_change_1d is None:
         return None
-    price_rp = price
-    for low, high, limit in ARA_LIMITS:
-        if low <= price_rp < high:
-            return limit
-    return 7.0
-
-
-def calculate_ara_proximity(price: float | None, ara_limit_pct: float | None) -> float | None:
-    if price is None or ara_limit_pct is None:
-        return None
-    ara_price = price * (1 + ara_limit_pct / 100)
-    distance_pct = (ara_price - price) / price * 100
-    return float(distance_pct)
-
-
-def calculate_ara_proximity_atr(price: float | None, ara_limit_pct: float | None, atr_pct_14: float | None) -> float | None:
-    if any(v is None for v in [price, ara_limit_pct, atr_pct_14]) or atr_pct_14 <= 0:
-        return None
-    return float(ara_limit_pct / atr_pct_14)
+    remaining = ara_limit_pct - abs(price_change_1d)
+    return float(max(0, remaining))

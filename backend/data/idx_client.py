@@ -124,6 +124,9 @@ class IDXClient:
                 date_m = re.search(r'TanggalPencatatan:"([^"]*)"', obj_text)
                 if date_m:
                     stock["tanggal_pencatatan"] = date_m.group(1)
+                papan_m = re.search(r'JenisPapan:"([^"]*)"', obj_text)
+                if papan_m:
+                    stock["papan"] = papan_m.group(1)
                 stocks.append(stock)
 
         return stocks

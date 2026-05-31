@@ -43,7 +43,7 @@ export default function StockDetailClient({ ticker, initialData }: StockDetailCl
 
   const { data, isLoading, isFetching, error } = useStockDetail({
     variables: { ticker, period: timeframe },
-    initialData: initialData ?? undefined,
+    initialData: timeframe === "1mo" ? initialData ?? undefined : undefined,
   })
 
   if (isLoading && !data) {

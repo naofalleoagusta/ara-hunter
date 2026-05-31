@@ -12,10 +12,11 @@ def normalize(value, min_val, max_val) -> float:
 
 
 def score_momentum(indicators: dict[str, Any]) -> float:
+    change_1d = indicators.get("price_change_1d") or 0
     change_3d = indicators.get("price_change_3d") or 0
     change_5d = indicators.get("price_change_5d") or 0
-    avg_momentum = (change_3d + change_5d) / 2
-    score = normalize(avg_momentum, 0, 15)
+    weighted = change_1d * 0.5 + change_3d * 0.3 + change_5d * 0.2
+    score = normalize(weighted, 0, 25)
     return round(score * 100, 1)
 
 
@@ -32,11 +33,13 @@ def score_technical(indicators: dict[str, Any]) -> float:
 
     rsi = indicators.get("rsi")
     if rsi is not None:
-        if 50 <= rsi <= 75:
+        if 70 <= rsi <= 90:
             rsi_score = 100
-        elif rsi > 75:
-            rsi_score = max(0, 100 - (rsi - 75) * 4)
-        elif rsi < 50:
+        elif 50 <= rsi < 70:
+            rsi_score = 100
+        elif rsi > 90:
+            rsi_score = max(50, 100 - (rsi - 90) * 10)
+        elif rsi >= 30:
             rsi_score = normalize(rsi, 30, 50) * 100
         else:
             rsi_score = 0
@@ -44,11 +47,13 @@ def score_technical(indicators: dict[str, Any]) -> float:
 
     bb_pos = indicators.get("bb_position")
     if bb_pos is not None:
-        if 0.6 <= bb_pos <= 0.9:
+        if 0.8 <= bb_pos <= 1.0:
             bb_score = 100
-        elif bb_pos > 0.9:
-            bb_score = max(0, 100 - (bb_pos - 0.9) * 500)
-        elif bb_pos < 0.6:
+        elif bb_pos > 1.0:
+            bb_score = max(70, 100 - (bb_pos - 1.0) * 100)
+        elif 0.6 <= bb_pos < 0.8:
+            bb_score = 100
+        elif bb_pos >= 0:
             bb_score = normalize(bb_pos, 0, 0.6) * 100
         else:
             bb_score = 0
@@ -64,17 +69,23 @@ def score_technical(indicators: dict[str, Any]) -> float:
 
 
 def score_proximity(indicators: dict[str, Any]) -> float:
-    ara_proximity = indicators.get("ara_proximity_pct")
-    if ara_proximity is None:
+    remaining = indicators.get("ara_remaining_pct")
+    limit = indicators.get("ara_limit_pct")
+    if remaining is None or limit is None or limit <= 0:
         return 0.0
-    score = normalize(ara_proximity, 1.47, 15.54)
+    score = normalize(remaining, 0, limit)
     return round((1 - score) * 100, 1)
 
 
 def score_consistency(indicators: dict[str, Any]) -> float:
     up_days = indicators.get("consecutive_up_days") or 0
-    score = normalize(up_days, 0, 5)
-    return round(score * 100, 1)
+    if up_days <= 0:
+        return 0.0
+    if up_days <= 3:
+        return round((up_days / 3) * 100, 1)
+    if up_days <= 5:
+        return round(100 - (up_days - 3) * 20, 1)
+    return 40.0
 
 
 def compute_total_score(indicators: dict[str, Any]) -> dict[str, float]:
