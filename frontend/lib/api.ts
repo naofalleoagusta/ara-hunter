@@ -33,6 +33,7 @@ export interface StockResult {
   proximity_score: number | null
   consistency_score: number | null
   total_score: number | null
+  ml_prob: number | null
 }
 
 export interface ScanResponse {
@@ -91,7 +92,12 @@ export interface MoversResponse {
 async function fetchJson<T>(url: string, options?: RequestInit): Promise<T> {
   const res = await fetch(url, options)
   if (!res.ok) {
-    throw new Error(`API error: ${res.status} ${res.statusText}`)
+    const body = await res.json().catch(() => null)
+    const msg = body?.detail?.message || body?.detail || `${res.status} ${res.statusText}`
+    const err = new Error(msg)
+    ;(err as any).status = res.status
+    ;(err as any).body = body
+    throw err
   }
   return res.json()
 }

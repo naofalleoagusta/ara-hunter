@@ -16,6 +16,7 @@ interface StockRatingReasoningProps {
   macdBullish: number | null
   araProximityPct: number | null
   consecutiveUpDays: number | null
+  mlProb: number | null
 }
 
 interface Factor {
@@ -71,7 +72,7 @@ function FactorCard({ factor, index }: { factor: Factor; index: number }) {
 }
 
 export default function StockRatingReasoning(props: StockRatingReasoningProps) {
-  const { totalScore } = props
+  const { totalScore, mlProb } = props
   if (totalScore == null) return null
 
   const { signal, color, accent, glow } = classifyScore(totalScore)
@@ -140,8 +141,19 @@ export default function StockRatingReasoning(props: StockRatingReasoningProps) {
     )
 
     const summaryText = (() => {
+      const ml = props.mlProb
+      const mlStr = ml != null ? `${(ml * 100).toFixed(0)}%` : "N/A"
       const s = strengths.length
       const c = concerns.length
+      if (ml != null && ml >= 0.6) {
+        return `High ML confidence (${mlStr}) that this stock will hit ARA within 5 days. The ML model identifies strong probability — this is the primary signal. ${totalScore >= 50 ? `Score (${totalScore.toFixed(0)}) confirms the thesis.` : "Monitor score improvement for additional confirmation."}`
+      }
+      if (ml != null && ml >= 0.5) {
+        return `Moderate ML confidence (${mlStr}) — the model sees above-average ARA probability. ${totalScore >= 70 ? "Score strongly supports this signal." : totalScore >= 50 ? "Score aligns with this moderate confidence signal." : "Score does not yet confirm — watch for alignment between ML and traditional scores."}`
+      }
+      if (ml != null && ml < 0.5) {
+        return `Low ML confidence (${mlStr}) — the model does not see strong ARA probability here. ${totalScore >= 70 ? "Score is high despite low ML confidence — this discrepancy suggests caution." : totalScore >= 50 ? "Neither ML nor score strongly signal a near-term ARA event." : "No actionable signal from either ML prediction or traditional scoring."}`
+      }
       if (totalScore >= 70) {
         if (s >= 4) return `Strong Buy with high conviction — ${s} of 5 dimensions score above 70, led by ${strengths[0].dimension}. Broad-based strength across the board with powerful technical alignment.`
         if (c > 0) return `Strong Buy — excellent ${strengths[0].dimension} score drives the rating. However, keep an eye on ${concerns[0].dimension} which lags behind the overall thesis.`
@@ -164,6 +176,7 @@ export default function StockRatingReasoning(props: StockRatingReasoningProps) {
     return { strengths, concerns, summaryText }
   }, [
     totalScore,
+    props.mlProb,
     props.momentumScore,
     props.volumeScore,
     props.technicalScore,
@@ -178,9 +191,13 @@ export default function StockRatingReasoning(props: StockRatingReasoningProps) {
     props.consecutiveUpDays,
   ])
 
+  const mlPct = mlProb != null ? (mlProb * 100) : null
+  const mlLevel = mlProb != null ? (mlProb >= 0.6 ? "High" : mlProb >= 0.5 ? "Medium" : "Low") : null
+  const mlColor = mlProb != null ? (mlProb >= 0.6 ? "text-green border-green" : mlProb >= 0.5 ? "text-amber border-amber" : "text-text-muted border-border") : ""
+  const mlBar = mlProb != null ? (mlProb >= 0.6 ? "bg-green" : mlProb >= 0.5 ? "bg-amber" : "bg-border") : ""
   const summaryIcon = totalScore >= 70 ? "⚡" : totalScore >= 50 ? "→" : totalScore >= 30 ? "◐" : "✕"
 
-  if (strengths.length === 0 && concerns.length === 0) return null
+  if (strengths.length === 0 && concerns.length === 0 && mlProb == null) return null
 
   return (
     <div className={`bg-card border-l-[5px] ${accent} border border-border rounded-xl p-5 ${glow} shadow-sm`}>
@@ -188,6 +205,37 @@ export default function StockRatingReasoning(props: StockRatingReasoningProps) {
         <h3 className="text-sm font-semibold text-text-muted uppercase tracking-wider">Rating Analysis</h3>
         <span className={`text-xs font-bold tracking-widest uppercase ${color}`}>{signal}</span>
       </div>
+
+      {mlProb != null && (
+        <div className="mb-5">
+          <p className="text-[11px] font-semibold uppercase tracking-wider mb-2.5 flex items-center gap-1.5"
+             style={{ color: mlProb >= 0.6 ? "#22c55e" : mlProb >= 0.5 ? "#f59e0b" : undefined }}>
+            <span className={`inline-block w-1.5 h-1.5 rounded-full ${mlBar}`} />
+            ML Confidence
+          </p>
+          <div className="bg-surface border border-border rounded-xl p-4">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-xs font-semibold uppercase tracking-wider text-text-muted">ARA Probability</span>
+              <span className={`text-sm font-bold font-mono tabular-nums ${mlColor.split(" ")[0]}`}>
+                {mlPct!.toFixed(0)}% · {mlLevel}
+              </span>
+            </div>
+            <div className="relative h-2 bg-border rounded-full overflow-hidden">
+              <div
+                className={`absolute inset-y-0 left-0 rounded-full transition-all duration-700 ease-out ${mlBar}`}
+                style={{ width: `${Math.min(mlPct!, 100)}%` }}
+              />
+            </div>
+            <p className="text-xs text-text-muted mt-2 leading-relaxed">
+              {mlProb >= 0.6
+                ? "ML model predicts high probability of hitting ARA within 5 trading days. This is the strongest signal."
+                : mlProb >= 0.5
+                ? "ML model shows above-average ARA probability. Worth monitoring with score confirmation."
+                : "ML model does not currently predict a strong ARA event. Low probability of hitting limit in 5 days."}
+            </p>
+          </div>
+        </div>
+      )}
 
       {strengths.length > 0 && (
         <div className="mb-5">

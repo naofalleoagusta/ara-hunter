@@ -1,9 +1,11 @@
+import os
+
 from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    database_url: str = "sqlite:///./ara_hunter.db"
-    cors_origins: list[str] = ["http://localhost:3000"]
+    database_url: str = f"sqlite:///{os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ara_hunter.db')}"
+    cors_origins: list[str] = ["*"]
     yahoo_cache_days: int = 1
     idx_delay: float = 1.0
     idx_max_retries: int = 3

@@ -8,7 +8,7 @@ import type { StockResult } from "@/lib/api"
 import ScoreBadge from "@/components/ScoreBadge"
 import Skeleton from "@/components/Skeleton"
 
-type SortKey = "total_score" | "momentum_score" | "volume_score" | "technical_score" | "price_change_1d" | "price_change_3d" | "volume_ratio" | "ara_proximity_pct"
+type SortKey = "total_score" | "momentum_score" | "volume_score" | "technical_score" | "price_change_1d" | "price_change_3d" | "volume_ratio" | "ara_proximity_pct" | "ml_prob"
 
 interface SortConfig {
   key: SortKey
@@ -28,7 +28,7 @@ const signalOrder = ["Strong Buy", "Buy", "Watch", "Pass"]
 export default function ResultsPage() {
   const { id } = useParams<{ id: string }>()
   const searchParams = useSearchParams()
-  const [sort, setSort] = useState<SortConfig>({ key: "total_score", order: "desc" })
+  const [sort, setSort] = useState<SortConfig>({ key: "ml_prob", order: "desc" })
   const [minScore, setMinScore] = useState(0)
   const [buyOnly, setBuyOnly] = useState(searchParams.get("buy") === "1")
 
@@ -65,6 +65,7 @@ export default function ResultsPage() {
     { key: "volume_score", label: "Vol", hideOnMobile: true },
     { key: "technical_score", label: "Tech", hideOnMobile: true },
     { key: "ara_proximity_pct", label: "ARA Δ", hideOnMobile: true },
+    { key: "ml_prob", label: "Prob" },
     { key: "total_score", label: "Score" },
   ]
 
@@ -200,6 +201,9 @@ export default function ResultsPage() {
                     <td className="px-4 py-3 text-text-muted hidden lg:table-cell">{r.technical_score?.toFixed(0) || "-"}</td>
                     <td className="px-4 py-3 text-amber font-medium whitespace-nowrap hidden lg:table-cell">
                       {r.ara_proximity_pct != null ? `${r.ara_proximity_pct.toFixed(1)}%` : "-"}
+                    </td>
+                    <td className="px-4 py-3 font-medium whitespace-nowrap">
+                      {r.ml_prob != null ? `${(r.ml_prob * 100).toFixed(0)}%` : "-"}
                     </td>
                     <td className="px-4 py-3">
                       <ScoreBadge score={r.total_score} size="sm" />

@@ -51,6 +51,7 @@ class ScreeningResult(Base):
     proximity_score = Column(Float, nullable=True)
     consistency_score = Column(Float, nullable=True)
     total_score = Column(Float, nullable=True, index=True)
+    ml_prob = Column(Float, nullable=True)
 
     session = relationship("ScreeningSession", back_populates="results")
 

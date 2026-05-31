@@ -26,7 +26,8 @@
     "volume_score": 59.7,
     "technical_score": 79.7,
     "proximity_score": 36.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-11",
@@ -55,7 +56,8 @@
     "volume_score": 99.5,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-06-11",
@@ -84,7 +86,8 @@
     "volume_score": 13.9,
     "technical_score": 81.2,
     "proximity_score": 38.9,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-11",
@@ -113,7 +116,8 @@
     "volume_score": 16.4,
     "technical_score": 66.7,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -142,7 +146,8 @@
     "volume_score": 0.0,
     "technical_score": 82.9,
     "proximity_score": 37.9,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -171,7 +176,8 @@
     "volume_score": 100.0,
     "technical_score": 90.6,
     "proximity_score": 100.0,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -200,7 +206,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 36.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -229,7 +236,8 @@
     "volume_score": 3.3,
     "technical_score": 92.9,
     "proximity_score": 87.8,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -258,7 +266,8 @@
     "volume_score": 38.5,
     "technical_score": 82.9,
     "proximity_score": 38.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -287,7 +296,8 @@
     "volume_score": 91.0,
     "technical_score": 95.9,
     "proximity_score": 23.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -316,7 +326,8 @@
     "volume_score": 54.7,
     "technical_score": 88.1,
     "proximity_score": 59.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -345,7 +356,8 @@
     "volume_score": 45.9,
     "technical_score": 77.8,
     "proximity_score": 38.6,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -374,7 +386,8 @@
     "volume_score": 22.8,
     "technical_score": 27.0,
     "proximity_score": 36.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -403,7 +416,8 @@
     "volume_score": 85.4,
     "technical_score": 99.9,
     "proximity_score": 30.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -432,7 +446,8 @@
     "volume_score": 0.0,
     "technical_score": 96.8,
     "proximity_score": 38.1,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -461,7 +476,8 @@
     "volume_score": 11.2,
     "technical_score": 86.0,
     "proximity_score": 39.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -490,7 +506,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 77.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -519,7 +536,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 95.7,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -548,7 +566,8 @@
     "volume_score": 5.9,
     "technical_score": 89.8,
     "proximity_score": 34.9,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -577,7 +596,8 @@
     "volume_score": 32.6,
     "technical_score": 100.0,
     "proximity_score": 35.6,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -606,7 +626,8 @@
     "volume_score": 67.6,
     "technical_score": 98.6,
     "proximity_score": 20.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -635,7 +656,8 @@
     "volume_score": 19.6,
     "technical_score": 100.0,
     "proximity_score": 38.8,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -664,7 +686,8 @@
     "volume_score": 76.4,
     "technical_score": 90.0,
     "proximity_score": 54.9,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-18",
@@ -693,7 +716,8 @@
     "volume_score": 77.3,
     "technical_score": 98.0,
     "proximity_score": 49.5,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-06-25",
@@ -722,7 +746,8 @@
     "volume_score": 27.1,
     "technical_score": 100.0,
     "proximity_score": 30.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-06-25",
@@ -751,7 +776,8 @@
     "volume_score": 5.1,
     "technical_score": 94.5,
     "proximity_score": 36.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -780,7 +806,8 @@
     "volume_score": 100.0,
     "technical_score": 96.1,
     "proximity_score": 26.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -809,7 +836,8 @@
     "volume_score": 12.4,
     "technical_score": 100.0,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -838,7 +866,8 @@
     "volume_score": 0.0,
     "technical_score": 82.7,
     "proximity_score": 39.2,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -867,7 +896,8 @@
     "volume_score": 77.4,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -896,7 +926,8 @@
     "volume_score": 38.5,
     "technical_score": 82.9,
     "proximity_score": 38.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -925,7 +956,8 @@
     "volume_score": 22.2,
     "technical_score": 100.0,
     "proximity_score": 61.5,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -954,7 +986,8 @@
     "volume_score": 37.4,
     "technical_score": 94.0,
     "proximity_score": 77.9,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -983,7 +1016,8 @@
     "volume_score": 17.0,
     "technical_score": 100.0,
     "proximity_score": 36.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1012,7 +1046,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 34.9,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1041,7 +1076,8 @@
     "volume_score": 0.0,
     "technical_score": 96.8,
     "proximity_score": 38.1,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1070,7 +1106,8 @@
     "volume_score": 0.0,
     "technical_score": 93.3,
     "proximity_score": 38.9,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1099,7 +1136,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 36.4,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1128,7 +1166,8 @@
     "volume_score": 98.5,
     "technical_score": 61.8,
     "proximity_score": 34.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1157,7 +1196,8 @@
     "volume_score": 49.0,
     "technical_score": 66.7,
     "proximity_score": 76.0,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1186,7 +1226,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 48.1,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1215,7 +1256,8 @@
     "volume_score": 20.1,
     "technical_score": 66.7,
     "proximity_score": 54.3,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1244,7 +1286,8 @@
     "volume_score": 32.3,
     "technical_score": 90.0,
     "proximity_score": 40.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1273,7 +1316,8 @@
     "volume_score": 69.6,
     "technical_score": 92.8,
     "proximity_score": 98.5,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1302,7 +1346,8 @@
     "volume_score": 0.0,
     "technical_score": 0.0,
     "proximity_score": 77.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-02",
@@ -1331,7 +1376,8 @@
     "volume_score": 7.7,
     "technical_score": 79.8,
     "proximity_score": 97.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1360,7 +1406,8 @@
     "volume_score": 45.5,
     "technical_score": 90.6,
     "proximity_score": 39.2,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1389,7 +1436,8 @@
     "volume_score": 9.7,
     "technical_score": 91.9,
     "proximity_score": 35.3,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1418,7 +1466,8 @@
     "volume_score": 25.6,
     "technical_score": 94.9,
     "proximity_score": 99.3,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1447,7 +1496,8 @@
     "volume_score": 38.5,
     "technical_score": 82.9,
     "proximity_score": 38.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1476,7 +1526,8 @@
     "volume_score": 27.1,
     "technical_score": 100.0,
     "proximity_score": 43.8,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1505,7 +1556,8 @@
     "volume_score": 100.0,
     "technical_score": 100.0,
     "proximity_score": 37.3,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1534,7 +1586,8 @@
     "volume_score": 43.7,
     "technical_score": 29.2,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1563,7 +1616,8 @@
     "volume_score": 8.6,
     "technical_score": 96.6,
     "proximity_score": 37.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1592,7 +1646,8 @@
     "volume_score": 63.7,
     "technical_score": 99.8,
     "proximity_score": 48.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1621,7 +1676,8 @@
     "volume_score": 23.5,
     "technical_score": 98.2,
     "proximity_score": 65.2,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1650,7 +1706,8 @@
     "volume_score": 3.3,
     "technical_score": 82.5,
     "proximity_score": 40.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1679,7 +1736,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 44.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1708,7 +1766,8 @@
     "volume_score": 4.4,
     "technical_score": 100.0,
     "proximity_score": 66.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1737,7 +1796,8 @@
     "volume_score": 59.2,
     "technical_score": 100.0,
     "proximity_score": 32.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1766,7 +1826,8 @@
     "volume_score": 80.8,
     "technical_score": 90.2,
     "proximity_score": 75.5,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1795,7 +1856,8 @@
     "volume_score": 84.0,
     "technical_score": 96.3,
     "proximity_score": 38.6,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1824,7 +1886,8 @@
     "volume_score": 10.0,
     "technical_score": 96.7,
     "proximity_score": 38.9,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1853,7 +1916,8 @@
     "volume_score": 33.3,
     "technical_score": 100.0,
     "proximity_score": 30.2,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1882,7 +1946,8 @@
     "volume_score": 8.1,
     "technical_score": 94.5,
     "proximity_score": 64.9,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-07-09",
@@ -1911,7 +1976,8 @@
     "volume_score": 14.7,
     "technical_score": 99.3,
     "proximity_score": 27.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -1940,7 +2006,8 @@
     "volume_score": 55.6,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -1969,7 +2036,8 @@
     "volume_score": 42.9,
     "technical_score": 77.5,
     "proximity_score": 40.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -1998,7 +2066,8 @@
     "volume_score": 7.1,
     "technical_score": 82.8,
     "proximity_score": 40.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2027,7 +2096,8 @@
     "volume_score": 90.4,
     "technical_score": 73.3,
     "proximity_score": 80.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2056,7 +2126,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2085,7 +2156,8 @@
     "volume_score": 0.0,
     "technical_score": 81.3,
     "proximity_score": 40.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2114,7 +2186,8 @@
     "volume_score": 38.5,
     "technical_score": 82.9,
     "proximity_score": 38.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2143,7 +2216,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2172,36 +2246,38 @@
     "volume_score": 100.0,
     "technical_score": 95.8,
     "proximity_score": 99.4,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
     "ticker": "PTPS",
     "score": 90.5,
-    "ml_prob": 0.4624,
+    "ml_prob": 0.4603,
     "rank": 10,
-    "price": 107.96966552734375,
+    "price": 107.96967315673828,
     "ara_limit": 25.0,
     "ara_price": 134.96,
-    "hit_ara": true,
+    "hit_ara": false,
     "best_return": 25.0,
-    "price_change_1d": 19.148931870971133,
-    "price_change_3d": 24.44443506466726,
-    "price_change_5d": 25.842683040911545,
+    "price_change_1d": 19.148930258756018,
+    "price_change_3d": 24.44444385820837,
+    "price_change_5d": 25.842691933256194,
     "volume_ratio": 11.154756681002842,
     "avg_volume_20d": 24453290,
     "current_volume": 272770500,
-    "rsi": 81.39532187163417,
-    "bb_position": 1.4713868450669099,
+    "rsi": 81.39533685250704,
+    "bb_position": 1.4713868189430515,
     "macd_bullish": 1,
     "consecutive_up_days": 3,
-    "atr_pct_14": 5.61224522466692,
-    "ara_remaining_pct": 5.851068129028867,
+    "atr_pct_14": 5.612245424633817,
+    "ara_remaining_pct": 5.8510697412439825,
     "momentum_score": 88.3,
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 76.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2230,7 +2306,8 @@
     "volume_score": 16.3,
     "technical_score": 96.7,
     "proximity_score": 70.8,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2259,7 +2336,8 @@
     "volume_score": 81.5,
     "technical_score": 73.3,
     "proximity_score": 97.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2288,7 +2366,8 @@
     "volume_score": 11.7,
     "technical_score": 100.0,
     "proximity_score": 36.4,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2317,7 +2396,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 27.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2346,7 +2426,8 @@
     "volume_score": 42.2,
     "technical_score": 90.1,
     "proximity_score": 69.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2375,7 +2456,8 @@
     "volume_score": 63.4,
     "technical_score": 100.0,
     "proximity_score": 34.7,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2404,7 +2486,8 @@
     "volume_score": 32.2,
     "technical_score": 90.0,
     "proximity_score": 99.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2433,7 +2516,8 @@
     "volume_score": 8.6,
     "technical_score": 99.2,
     "proximity_score": 39.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2462,7 +2546,8 @@
     "volume_score": 0.0,
     "technical_score": 97.3,
     "proximity_score": 80.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-16",
@@ -2491,7 +2576,8 @@
     "volume_score": 100.0,
     "technical_score": 74.9,
     "proximity_score": 30.4,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-23",
@@ -2520,7 +2606,8 @@
     "volume_score": 80.8,
     "technical_score": 77.2,
     "proximity_score": 37.6,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-07-30",
@@ -2549,7 +2636,8 @@
     "volume_score": 38.7,
     "technical_score": 96.9,
     "proximity_score": 36.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-07-30",
@@ -2578,7 +2666,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-30",
@@ -2598,7 +2687,7 @@
     "avg_volume_20d": 7265675,
     "current_volume": 130581600,
     "rsi": 86.9565305284267,
-    "bb_position": 1.5504296011200327,
+    "bb_position": 1.5504296011200414,
     "macd_bullish": 1,
     "consecutive_up_days": 2,
     "atr_pct_14": 3.361344541793016,
@@ -2607,7 +2696,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-07-30",
@@ -2636,7 +2726,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-08-06",
@@ -2665,7 +2756,8 @@
     "volume_score": 9.6,
     "technical_score": 94.3,
     "proximity_score": 36.4,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-08-06",
@@ -2694,7 +2786,8 @@
     "volume_score": 4.2,
     "technical_score": 80.0,
     "proximity_score": 36.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-08-06",
@@ -2723,7 +2816,8 @@
     "volume_score": 79.4,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-08-13",
@@ -2752,7 +2846,8 @@
     "volume_score": 100.0,
     "technical_score": 73.3,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-08-13",
@@ -2781,7 +2876,8 @@
     "volume_score": 85.9,
     "technical_score": 82.1,
     "proximity_score": 36.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-08-13",
@@ -2810,7 +2906,8 @@
     "volume_score": 26.2,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-08-13",
@@ -2839,7 +2936,8 @@
     "volume_score": 49.2,
     "technical_score": 95.1,
     "proximity_score": 36.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-08-13",
@@ -2868,7 +2966,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-08-13",
@@ -2897,7 +2996,8 @@
     "volume_score": 65.1,
     "technical_score": 99.3,
     "proximity_score": 57.8,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-08-20",
@@ -2926,7 +3026,8 @@
     "volume_score": 100.0,
     "technical_score": 82.0,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-08-20",
@@ -2955,7 +3056,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-08-20",
@@ -2984,7 +3086,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-08-20",
@@ -3013,7 +3116,8 @@
     "volume_score": 18.5,
     "technical_score": 96.7,
     "proximity_score": 36.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-08-20",
@@ -3042,7 +3146,8 @@
     "volume_score": 8.6,
     "technical_score": 95.6,
     "proximity_score": 36.4,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-08-20",
@@ -3071,7 +3176,8 @@
     "volume_score": 37.1,
     "technical_score": 83.7,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-08-27",
@@ -3100,7 +3206,8 @@
     "volume_score": 100.0,
     "technical_score": 73.3,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-08-27",
@@ -3129,7 +3236,8 @@
     "volume_score": 66.7,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-08-27",
@@ -3158,7 +3266,8 @@
     "volume_score": 50.4,
     "technical_score": 94.4,
     "proximity_score": 30.8,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-08-27",
@@ -3187,7 +3296,8 @@
     "volume_score": 85.3,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2025-08-27",
@@ -3216,7 +3326,8 @@
     "volume_score": 50.2,
     "technical_score": 81.5,
     "proximity_score": 37.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-09-03",
@@ -3245,7 +3356,8 @@
     "volume_score": 41.8,
     "technical_score": 79.1,
     "proximity_score": 34.5,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-09-10",
@@ -3274,7 +3386,8 @@
     "volume_score": 98.8,
     "technical_score": 92.4,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-09-10",
@@ -3303,7 +3416,8 @@
     "volume_score": 18.3,
     "technical_score": 82.7,
     "proximity_score": 38.1,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-09-10",
@@ -3332,7 +3446,8 @@
     "volume_score": 0.0,
     "technical_score": 82.6,
     "proximity_score": 36.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-09-17",
@@ -3361,7 +3476,8 @@
     "volume_score": 1.1,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-09-17",
@@ -3390,7 +3506,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-09-17",
@@ -3419,7 +3536,8 @@
     "volume_score": 28.4,
     "technical_score": 96.6,
     "proximity_score": 38.1,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-09-17",
@@ -3448,7 +3566,8 @@
     "volume_score": 18.7,
     "technical_score": 95.4,
     "proximity_score": 38.1,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-09-17",
@@ -3477,7 +3596,8 @@
     "volume_score": 37.5,
     "technical_score": 97.9,
     "proximity_score": 32.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-09-24",
@@ -3506,7 +3626,8 @@
     "volume_score": 100.0,
     "technical_score": 76.2,
     "proximity_score": 100.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-09-24",
@@ -3535,7 +3656,8 @@
     "volume_score": 1.1,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-09-24",
@@ -3564,7 +3686,8 @@
     "volume_score": 78.3,
     "technical_score": 90.3,
     "proximity_score": 100.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-09-24",
@@ -3593,7 +3716,8 @@
     "volume_score": 29.8,
     "technical_score": 73.3,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-01",
@@ -3622,7 +3746,8 @@
     "volume_score": 88.5,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-01",
@@ -3651,7 +3776,8 @@
     "volume_score": 100.0,
     "technical_score": 73.3,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-08",
@@ -3680,7 +3806,8 @@
     "volume_score": 1.1,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3709,7 +3836,8 @@
     "volume_score": 28.1,
     "technical_score": 90.6,
     "proximity_score": 98.2,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3738,7 +3866,8 @@
     "volume_score": 65.3,
     "technical_score": 81.4,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3767,7 +3896,8 @@
     "volume_score": 6.8,
     "technical_score": 100.0,
     "proximity_score": 72.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3796,7 +3926,8 @@
     "volume_score": 4.4,
     "technical_score": 99.2,
     "proximity_score": 99.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3825,7 +3956,8 @@
     "volume_score": 0.0,
     "technical_score": 94.3,
     "proximity_score": 37.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3854,7 +3986,8 @@
     "volume_score": 2.5,
     "technical_score": 100.0,
     "proximity_score": 99.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3883,7 +4016,8 @@
     "volume_score": 8.6,
     "technical_score": 82.6,
     "proximity_score": 39.6,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3912,7 +4046,8 @@
     "volume_score": 0.0,
     "technical_score": 78.4,
     "proximity_score": 34.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3941,7 +4076,8 @@
     "volume_score": 6.3,
     "technical_score": 95.4,
     "proximity_score": 37.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3970,7 +4106,8 @@
     "volume_score": 10.5,
     "technical_score": 90.0,
     "proximity_score": 85.9,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -3999,7 +4136,8 @@
     "volume_score": 0.0,
     "technical_score": 92.8,
     "proximity_score": 39.6,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -4028,7 +4166,8 @@
     "volume_score": 5.0,
     "technical_score": 97.6,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -4042,22 +4181,23 @@
     "hit_ara": false,
     "best_return": 5.71,
     "price_change_1d": 18.243238216228455,
-    "price_change_3d": 23.32628833655457,
-    "price_change_5d": 23.32628833655457,
+    "price_change_3d": 23.326277077863047,
+    "price_change_5d": 23.326277077863047,
     "volume_ratio": 4.7574244117771896,
     "avg_volume_20d": 2827160,
     "current_volume": 13450000,
-    "rsi": 91.97161510619627,
-    "bb_position": 1.4743027338471846,
+    "rsi": 91.97159280361652,
+    "bb_position": 1.474302615640927,
     "macd_bullish": 1,
     "consecutive_up_days": 3,
-    "atr_pct_14": 3.9164249107412523,
+    "atr_pct_14": 3.91642502121591,
     "ara_remaining_pct": 6.756761783771545,
     "momentum_score": 83.1,
     "volume_score": 41.7,
     "technical_score": 83.4,
     "proximity_score": 73.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -4086,7 +4226,8 @@
     "volume_score": 37.8,
     "technical_score": 91.1,
     "proximity_score": 98.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -4115,7 +4256,8 @@
     "volume_score": 8.6,
     "technical_score": 100.0,
     "proximity_score": 98.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -4144,7 +4286,8 @@
     "volume_score": 0.9,
     "technical_score": 100.0,
     "proximity_score": 77.4,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -4164,7 +4307,7 @@
     "avg_volume_20d": 61957290,
     "current_volume": 383146600,
     "rsi": 75.45455276931236,
-    "bb_position": 1.3327168942845273,
+    "bb_position": 1.3327168942845424,
     "macd_bullish": 1,
     "consecutive_up_days": 2,
     "atr_pct_14": 7.814407563161631,
@@ -4173,7 +4316,8 @@
     "volume_score": 57.6,
     "technical_score": 90.0,
     "proximity_score": 87.5,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -4202,7 +4346,8 @@
     "volume_score": 34.3,
     "technical_score": 92.0,
     "proximity_score": 84.9,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -4231,7 +4376,8 @@
     "volume_score": 25.8,
     "technical_score": 98.1,
     "proximity_score": 56.1,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-15",
@@ -4260,7 +4406,8 @@
     "volume_score": 60.3,
     "technical_score": 96.6,
     "proximity_score": 25.3,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-22",
@@ -4289,7 +4436,8 @@
     "volume_score": 92.2,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4318,7 +4466,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 37.8,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4347,7 +4496,8 @@
     "volume_score": 39.3,
     "technical_score": 100.0,
     "proximity_score": 98.9,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4376,7 +4526,8 @@
     "volume_score": 0.0,
     "technical_score": 94.2,
     "proximity_score": 37.5,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4405,7 +4556,8 @@
     "volume_score": 6.7,
     "technical_score": 96.5,
     "proximity_score": 36.4,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4434,7 +4586,8 @@
     "volume_score": 65.4,
     "technical_score": 97.6,
     "proximity_score": 97.6,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4463,7 +4616,8 @@
     "volume_score": 5.0,
     "technical_score": 94.2,
     "proximity_score": 39.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4492,7 +4646,8 @@
     "volume_score": 38.3,
     "technical_score": 94.2,
     "proximity_score": 98.9,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4521,7 +4676,8 @@
     "volume_score": 6.3,
     "technical_score": 95.4,
     "proximity_score": 37.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4550,7 +4706,8 @@
     "volume_score": 17.2,
     "technical_score": 87.9,
     "proximity_score": 37.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4579,7 +4736,8 @@
     "volume_score": 10.0,
     "technical_score": 97.6,
     "proximity_score": 39.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4608,7 +4766,8 @@
     "volume_score": 8.3,
     "technical_score": 98.9,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4637,7 +4796,8 @@
     "volume_score": 7.3,
     "technical_score": 100.0,
     "proximity_score": 84.4,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4666,7 +4826,8 @@
     "volume_score": 65.3,
     "technical_score": 96.5,
     "proximity_score": 58.9,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4695,7 +4856,8 @@
     "volume_score": 27.9,
     "technical_score": 100.0,
     "proximity_score": 38.1,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4724,7 +4886,8 @@
     "volume_score": 29.9,
     "technical_score": 99.9,
     "proximity_score": 37.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4753,7 +4916,8 @@
     "volume_score": 0.0,
     "technical_score": 96.8,
     "proximity_score": 39.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4782,7 +4946,8 @@
     "volume_score": 38.1,
     "technical_score": 98.7,
     "proximity_score": 53.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4811,7 +4976,8 @@
     "volume_score": 4.1,
     "technical_score": 98.1,
     "proximity_score": 58.2,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4840,7 +5006,8 @@
     "volume_score": 27.1,
     "technical_score": 100.0,
     "proximity_score": 23.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-10-29",
@@ -4869,7 +5036,8 @@
     "volume_score": 63.3,
     "technical_score": 93.2,
     "proximity_score": 83.1,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -4898,7 +5066,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -4927,7 +5096,8 @@
     "volume_score": 0.0,
     "technical_score": 99.8,
     "proximity_score": 39.3,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -4956,7 +5126,8 @@
     "volume_score": 11.1,
     "technical_score": 95.0,
     "proximity_score": 39.2,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -4985,7 +5156,8 @@
     "volume_score": 0.0,
     "technical_score": 99.3,
     "proximity_score": 38.9,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5014,7 +5186,8 @@
     "volume_score": 63.5,
     "technical_score": 100.0,
     "proximity_score": 52.8,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5043,7 +5216,8 @@
     "volume_score": 5.0,
     "technical_score": 94.2,
     "proximity_score": 39.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5072,7 +5246,8 @@
     "volume_score": 6.3,
     "technical_score": 95.4,
     "proximity_score": 37.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5101,7 +5276,8 @@
     "volume_score": 17.2,
     "technical_score": 87.9,
     "proximity_score": 37.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5130,7 +5306,8 @@
     "volume_score": 100.0,
     "technical_score": 93.8,
     "proximity_score": 98.6,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5159,7 +5336,8 @@
     "volume_score": 0.0,
     "technical_score": 96.7,
     "proximity_score": 39.2,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5188,7 +5366,8 @@
     "volume_score": 42.7,
     "technical_score": 66.7,
     "proximity_score": 75.9,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5217,7 +5396,8 @@
     "volume_score": 100.0,
     "technical_score": 75.3,
     "proximity_score": 65.5,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5246,7 +5426,8 @@
     "volume_score": 41.4,
     "technical_score": 99.2,
     "proximity_score": 64.5,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5275,7 +5456,8 @@
     "volume_score": 0.0,
     "technical_score": 86.9,
     "proximity_score": 39.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5304,7 +5486,8 @@
     "volume_score": 32.4,
     "technical_score": 92.8,
     "proximity_score": 64.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5333,7 +5516,8 @@
     "volume_score": 0.0,
     "technical_score": 83.3,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5362,7 +5546,8 @@
     "volume_score": 0.0,
     "technical_score": 96.8,
     "proximity_score": 39.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5391,7 +5576,8 @@
     "volume_score": 10.1,
     "technical_score": 100.0,
     "proximity_score": 42.7,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5420,7 +5606,8 @@
     "volume_score": 27.1,
     "technical_score": 100.0,
     "proximity_score": 23.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-11-05",
@@ -5449,7 +5636,8 @@
     "volume_score": 0.0,
     "technical_score": 63.2,
     "proximity_score": 36.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-11-12",
@@ -5478,7 +5666,8 @@
     "volume_score": 46.2,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-11-12",
@@ -5507,7 +5696,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-11-19",
@@ -5536,7 +5726,8 @@
     "volume_score": 33.7,
     "technical_score": 91.0,
     "proximity_score": 36.4,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2025-11-26",
@@ -5565,7 +5756,8 @@
     "volume_score": 24.2,
     "technical_score": 92.2,
     "proximity_score": 36.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-12-03",
@@ -5594,7 +5786,8 @@
     "volume_score": 33.2,
     "technical_score": 93.4,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-12-10",
@@ -5623,7 +5816,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-12-10",
@@ -5652,7 +5846,8 @@
     "volume_score": 60.0,
     "technical_score": 74.2,
     "proximity_score": 38.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-12-17",
@@ -5681,7 +5876,8 @@
     "volume_score": 11.8,
     "technical_score": 74.1,
     "proximity_score": 38.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-12-24",
@@ -5710,7 +5906,8 @@
     "volume_score": 30.8,
     "technical_score": 99.4,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2025-12-24",
@@ -5739,7 +5936,8 @@
     "volume_score": 11.8,
     "technical_score": 74.1,
     "proximity_score": 38.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2025-12-31",
@@ -5768,7 +5966,8 @@
     "volume_score": 42.0,
     "technical_score": 90.8,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2025-12-31",
@@ -5797,7 +5996,8 @@
     "volume_score": 11.8,
     "technical_score": 74.1,
     "proximity_score": 38.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-07",
@@ -5826,7 +6026,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-01-07",
@@ -5855,7 +6056,8 @@
     "volume_score": 22.1,
     "technical_score": 96.4,
     "proximity_score": 38.1,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-07",
@@ -5884,7 +6086,8 @@
     "volume_score": 24.6,
     "technical_score": 90.0,
     "proximity_score": 98.9,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-01-07",
@@ -5913,7 +6116,8 @@
     "volume_score": 24.9,
     "technical_score": 92.9,
     "proximity_score": 36.4,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-01-14",
@@ -5942,7 +6146,8 @@
     "volume_score": 68.8,
     "technical_score": 83.3,
     "proximity_score": 100.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-14",
@@ -5971,7 +6176,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-01-14",
@@ -6000,7 +6206,8 @@
     "volume_score": 84.7,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-01-14",
@@ -6029,7 +6236,8 @@
     "volume_score": 39.5,
     "technical_score": 94.5,
     "proximity_score": 37.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-14",
@@ -6058,7 +6266,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2026-01-14",
@@ -6087,7 +6296,8 @@
     "volume_score": 28.9,
     "technical_score": 78.4,
     "proximity_score": 35.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-21",
@@ -6116,7 +6326,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6145,7 +6356,8 @@
     "volume_score": 24.5,
     "technical_score": 81.7,
     "proximity_score": 38.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6174,7 +6386,8 @@
     "volume_score": 11.8,
     "technical_score": 82.5,
     "proximity_score": 39.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6203,7 +6416,8 @@
     "volume_score": 49.6,
     "technical_score": 90.0,
     "proximity_score": 97.8,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6232,7 +6446,8 @@
     "volume_score": 5.7,
     "technical_score": 82.7,
     "proximity_score": 39.6,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6261,7 +6476,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 48.1,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6290,7 +6506,8 @@
     "volume_score": 56.3,
     "technical_score": 90.7,
     "proximity_score": 99.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6319,7 +6536,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 39.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6348,7 +6566,8 @@
     "volume_score": 0.0,
     "technical_score": 97.8,
     "proximity_score": 39.5,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6377,7 +6596,8 @@
     "volume_score": 2.7,
     "technical_score": 94.0,
     "proximity_score": 38.8,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6406,7 +6626,8 @@
     "volume_score": 0.0,
     "technical_score": 95.0,
     "proximity_score": 38.2,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6435,7 +6656,8 @@
     "volume_score": 3.4,
     "technical_score": 95.6,
     "proximity_score": 51.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6464,7 +6686,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 39.4,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6493,7 +6716,8 @@
     "volume_score": 3.0,
     "technical_score": 100.0,
     "proximity_score": 92.1,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6522,7 +6746,8 @@
     "volume_score": 90.8,
     "technical_score": 73.3,
     "proximity_score": 100.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6551,7 +6776,8 @@
     "volume_score": 0.5,
     "technical_score": 100.0,
     "proximity_score": 58.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6580,7 +6806,8 @@
     "volume_score": 12.7,
     "technical_score": 90.2,
     "proximity_score": 98.6,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6609,7 +6836,8 @@
     "volume_score": 0.0,
     "technical_score": 69.1,
     "proximity_score": 80.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6638,7 +6866,8 @@
     "volume_score": 15.7,
     "technical_score": 100.0,
     "proximity_score": 54.7,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6667,7 +6896,8 @@
     "volume_score": 0.0,
     "technical_score": 99.1,
     "proximity_score": 40.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-01-28",
@@ -6696,7 +6926,8 @@
     "volume_score": 5.9,
     "technical_score": 83.9,
     "proximity_score": 37.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -6725,7 +6956,8 @@
     "volume_score": 15.2,
     "technical_score": 82.9,
     "proximity_score": 37.4,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -6754,7 +6986,8 @@
     "volume_score": 100.0,
     "technical_score": 82.8,
     "proximity_score": 37.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -6783,7 +7016,8 @@
     "volume_score": 0.0,
     "technical_score": 81.7,
     "proximity_score": 38.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -6812,7 +7046,8 @@
     "volume_score": 21.1,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -6841,7 +7076,8 @@
     "volume_score": 100.0,
     "technical_score": 95.8,
     "proximity_score": 98.5,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -6870,7 +7106,8 @@
     "volume_score": 6.3,
     "technical_score": 77.7,
     "proximity_score": 38.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -6899,7 +7136,8 @@
     "volume_score": 96.2,
     "technical_score": 90.3,
     "proximity_score": 97.2,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -6928,7 +7166,8 @@
     "volume_score": 44.8,
     "technical_score": 100.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -6957,7 +7196,8 @@
     "volume_score": 56.3,
     "technical_score": 90.7,
     "proximity_score": 99.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -6986,7 +7226,8 @@
     "volume_score": 6.6,
     "technical_score": 66.7,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -7015,7 +7256,8 @@
     "volume_score": 2.7,
     "technical_score": 94.0,
     "proximity_score": 38.8,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -7044,7 +7286,8 @@
     "volume_score": 63.0,
     "technical_score": 65.8,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -7073,7 +7316,8 @@
     "volume_score": 28.2,
     "technical_score": 66.7,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -7102,7 +7346,8 @@
     "volume_score": 0.0,
     "technical_score": 95.0,
     "proximity_score": 38.2,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -7131,7 +7376,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 40.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -7160,7 +7406,8 @@
     "volume_score": 36.0,
     "technical_score": 96.6,
     "proximity_score": 56.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -7189,7 +7436,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 56.4,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -7218,7 +7466,8 @@
     "volume_score": 5.9,
     "technical_score": 83.9,
     "proximity_score": 37.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -7247,7 +7496,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 29.2,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-04",
@@ -7276,7 +7526,8 @@
     "volume_score": 0.0,
     "technical_score": 0.0,
     "proximity_score": 39.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-11",
@@ -7305,7 +7556,8 @@
     "volume_score": 18.6,
     "technical_score": 100.0,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7334,7 +7586,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 40.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7363,7 +7616,8 @@
     "volume_score": 16.6,
     "technical_score": 100.0,
     "proximity_score": 31.9,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7392,7 +7646,8 @@
     "volume_score": 14.6,
     "technical_score": 100.0,
     "proximity_score": 38.9,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7421,7 +7676,8 @@
     "volume_score": 71.0,
     "technical_score": 100.0,
     "proximity_score": 38.9,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7450,7 +7706,8 @@
     "volume_score": 13.8,
     "technical_score": 97.1,
     "proximity_score": 39.9,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7479,7 +7736,8 @@
     "volume_score": 72.1,
     "technical_score": 96.9,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7508,7 +7766,8 @@
     "volume_score": 100.0,
     "technical_score": 100.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7537,7 +7796,8 @@
     "volume_score": 28.3,
     "technical_score": 100.0,
     "proximity_score": 76.5,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7566,7 +7826,8 @@
     "volume_score": 57.3,
     "technical_score": 93.5,
     "proximity_score": 98.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7595,7 +7856,8 @@
     "volume_score": 19.0,
     "technical_score": 100.0,
     "proximity_score": 42.6,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7624,7 +7886,8 @@
     "volume_score": 9.0,
     "technical_score": 100.0,
     "proximity_score": 59.4,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7653,7 +7916,8 @@
     "volume_score": 1.3,
     "technical_score": 92.9,
     "proximity_score": 38.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7682,7 +7946,8 @@
     "volume_score": 6.5,
     "technical_score": 98.5,
     "proximity_score": 38.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7711,7 +7976,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 39.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7740,7 +8006,8 @@
     "volume_score": 12.6,
     "technical_score": 100.0,
     "proximity_score": 38.7,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7769,7 +8036,8 @@
     "volume_score": 29.6,
     "technical_score": 100.0,
     "proximity_score": 37.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7798,7 +8066,8 @@
     "volume_score": 12.3,
     "technical_score": 66.7,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7827,7 +8096,8 @@
     "volume_score": 24.4,
     "technical_score": 96.8,
     "proximity_score": 61.1,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7856,7 +8126,8 @@
     "volume_score": 11.6,
     "technical_score": 96.4,
     "proximity_score": 40.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-18",
@@ -7885,7 +8156,8 @@
     "volume_score": 26.7,
     "technical_score": 26.7,
     "proximity_score": 80.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-02-25",
@@ -7914,7 +8186,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 39.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -7943,7 +8216,8 @@
     "volume_score": 3.7,
     "technical_score": 96.5,
     "proximity_score": 38.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -7972,7 +8246,8 @@
     "volume_score": 0.0,
     "technical_score": 99.0,
     "proximity_score": 27.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8001,7 +8276,8 @@
     "volume_score": 0.0,
     "technical_score": 98.4,
     "proximity_score": 38.7,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8030,7 +8306,8 @@
     "volume_score": 13.8,
     "technical_score": 100.0,
     "proximity_score": 40.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8059,7 +8336,8 @@
     "volume_score": 6.5,
     "technical_score": 98.5,
     "proximity_score": 38.3,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8088,7 +8366,8 @@
     "volume_score": 23.1,
     "technical_score": 100.0,
     "proximity_score": 66.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8117,7 +8396,8 @@
     "volume_score": 41.1,
     "technical_score": 66.7,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8146,7 +8426,8 @@
     "volume_score": 23.2,
     "technical_score": 52.3,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8175,7 +8456,8 @@
     "volume_score": 8.9,
     "technical_score": 80.6,
     "proximity_score": 39.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8204,7 +8486,8 @@
     "volume_score": 12.5,
     "technical_score": 91.5,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8233,7 +8516,8 @@
     "volume_score": 100.0,
     "technical_score": 100.0,
     "proximity_score": 40.1,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8262,7 +8546,8 @@
     "volume_score": 14.0,
     "technical_score": 99.9,
     "proximity_score": 35.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8291,7 +8576,8 @@
     "volume_score": 57.8,
     "technical_score": 66.7,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8320,7 +8606,8 @@
     "volume_score": 100.0,
     "technical_score": 66.7,
     "proximity_score": 100.0,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8349,7 +8636,8 @@
     "volume_score": 68.7,
     "technical_score": 16.7,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8378,7 +8666,8 @@
     "volume_score": 100.0,
     "technical_score": 66.7,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8407,7 +8696,8 @@
     "volume_score": 45.4,
     "technical_score": 98.6,
     "proximity_score": 47.5,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8436,7 +8726,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 39.3,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8465,7 +8756,8 @@
     "volume_score": 6.3,
     "technical_score": 100.0,
     "proximity_score": 39.5,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-04",
@@ -8494,7 +8786,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 30.8,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8523,7 +8816,8 @@
     "volume_score": 95.2,
     "technical_score": 94.5,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8552,7 +8846,8 @@
     "volume_score": 3.7,
     "technical_score": 96.5,
     "proximity_score": 38.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8581,7 +8876,8 @@
     "volume_score": 15.0,
     "technical_score": 90.3,
     "proximity_score": 39.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8610,7 +8906,8 @@
     "volume_score": 0.0,
     "technical_score": 99.0,
     "proximity_score": 27.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8639,7 +8936,8 @@
     "volume_score": 33.5,
     "technical_score": 90.0,
     "proximity_score": 98.3,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8668,7 +8966,8 @@
     "volume_score": 12.5,
     "technical_score": 91.5,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8697,7 +8996,8 @@
     "volume_score": 15.8,
     "technical_score": 100.0,
     "proximity_score": 45.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8726,7 +9026,8 @@
     "volume_score": 0.0,
     "technical_score": 85.2,
     "proximity_score": 40.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8755,7 +9056,8 @@
     "volume_score": 14.4,
     "technical_score": 64.7,
     "proximity_score": 56.6,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8784,7 +9086,8 @@
     "volume_score": 39.6,
     "technical_score": 84.7,
     "proximity_score": 64.9,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8813,7 +9116,8 @@
     "volume_score": 24.6,
     "technical_score": 48.8,
     "proximity_score": 41.8,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8842,7 +9146,8 @@
     "volume_score": 84.8,
     "technical_score": 65.3,
     "proximity_score": 68.2,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8871,7 +9176,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 39.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8900,7 +9206,8 @@
     "volume_score": 36.8,
     "technical_score": 20.7,
     "proximity_score": 37.3,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8929,7 +9236,8 @@
     "volume_score": 6.6,
     "technical_score": 100.0,
     "proximity_score": 38.1,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8958,7 +9266,8 @@
     "volume_score": 44.8,
     "technical_score": 51.6,
     "proximity_score": 80.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -8987,7 +9296,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 36.4,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -9016,7 +9326,8 @@
     "volume_score": 0.0,
     "technical_score": 81.2,
     "proximity_score": 39.1,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -9045,7 +9356,8 @@
     "volume_score": 34.7,
     "technical_score": 54.0,
     "proximity_score": 26.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-11",
@@ -9074,7 +9386,8 @@
     "volume_score": 3.3,
     "technical_score": 17.8,
     "proximity_score": 44.8,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9103,7 +9416,8 @@
     "volume_score": 3.7,
     "technical_score": 96.5,
     "proximity_score": 38.8,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9132,7 +9446,8 @@
     "volume_score": 69.5,
     "technical_score": 100.0,
     "proximity_score": 59.9,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9161,7 +9476,8 @@
     "volume_score": 23.6,
     "technical_score": 100.0,
     "proximity_score": 99.3,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9190,7 +9506,8 @@
     "volume_score": 15.4,
     "technical_score": 66.7,
     "proximity_score": 43.3,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9219,7 +9536,8 @@
     "volume_score": 12.5,
     "technical_score": 91.5,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9248,7 +9566,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 39.5,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9277,7 +9596,8 @@
     "volume_score": 0.0,
     "technical_score": 98.4,
     "proximity_score": 32.2,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9306,7 +9626,8 @@
     "volume_score": 41.4,
     "technical_score": 54.3,
     "proximity_score": 98.8,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9335,7 +9656,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 37.5,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9364,7 +9686,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 58.1,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9393,7 +9716,8 @@
     "volume_score": 22.3,
     "technical_score": 26.1,
     "proximity_score": 77.9,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9422,7 +9746,8 @@
     "volume_score": 6.3,
     "technical_score": 100.0,
     "proximity_score": 45.8,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9451,7 +9776,8 @@
     "volume_score": 32.9,
     "technical_score": 95.9,
     "proximity_score": 26.2,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9480,7 +9806,8 @@
     "volume_score": 5.2,
     "technical_score": 29.3,
     "proximity_score": 47.9,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9509,7 +9836,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 22.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9538,7 +9866,8 @@
     "volume_score": 8.2,
     "technical_score": 74.4,
     "proximity_score": 48.1,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9567,7 +9896,8 @@
     "volume_score": 1.8,
     "technical_score": 79.0,
     "proximity_score": 62.5,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9596,7 +9926,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 22.9,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9625,7 +9956,8 @@
     "volume_score": 0.0,
     "technical_score": 82.6,
     "proximity_score": 35.7,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-18",
@@ -9654,7 +9986,8 @@
     "volume_score": 0.0,
     "technical_score": 78.5,
     "proximity_score": 26.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9683,7 +10016,8 @@
     "volume_score": 44.6,
     "technical_score": 100.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9712,7 +10046,8 @@
     "volume_score": 17.8,
     "technical_score": 88.7,
     "proximity_score": 38.7,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9741,7 +10076,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 79.6,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9770,7 +10106,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 40.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9799,7 +10136,8 @@
     "volume_score": 18.0,
     "technical_score": 100.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9828,7 +10166,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 36.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9857,7 +10196,8 @@
     "volume_score": 0.0,
     "technical_score": 73.9,
     "proximity_score": 99.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9886,7 +10226,8 @@
     "volume_score": 100.0,
     "technical_score": 100.0,
     "proximity_score": 60.3,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9915,7 +10256,8 @@
     "volume_score": 17.9,
     "technical_score": 98.2,
     "proximity_score": 39.5,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9944,7 +10286,8 @@
     "volume_score": 36.5,
     "technical_score": 85.2,
     "proximity_score": 75.9,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -9973,7 +10316,8 @@
     "volume_score": 13.3,
     "technical_score": 84.1,
     "proximity_score": 98.3,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -10002,7 +10346,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 39.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -10031,7 +10376,8 @@
     "volume_score": 8.1,
     "technical_score": 100.0,
     "proximity_score": 34.3,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -10060,7 +10406,8 @@
     "volume_score": 3.6,
     "technical_score": 95.1,
     "proximity_score": 36.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -10089,7 +10436,8 @@
     "volume_score": 0.0,
     "technical_score": 94.1,
     "proximity_score": 48.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -10118,7 +10466,8 @@
     "volume_score": 86.2,
     "technical_score": 57.7,
     "proximity_score": 100.0,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -10147,7 +10496,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 44.7,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -10176,7 +10526,8 @@
     "volume_score": 0.0,
     "technical_score": 98.4,
     "proximity_score": 32.2,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -10205,7 +10556,8 @@
     "volume_score": 6.7,
     "technical_score": 31.2,
     "proximity_score": 32.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-03-25",
@@ -10234,7 +10586,8 @@
     "volume_score": 0.0,
     "technical_score": 36.7,
     "proximity_score": 37.8,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-01",
@@ -10263,7 +10616,8 @@
     "volume_score": 27.4,
     "technical_score": 99.9,
     "proximity_score": 34.8,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10292,7 +10646,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10321,7 +10676,8 @@
     "volume_score": 36.0,
     "technical_score": 91.7,
     "proximity_score": 100.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10350,7 +10706,8 @@
     "volume_score": 55.5,
     "technical_score": 100.0,
     "proximity_score": 36.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10379,7 +10736,8 @@
     "volume_score": 100.0,
     "technical_score": 100.0,
     "proximity_score": 41.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10408,7 +10766,8 @@
     "volume_score": 0.7,
     "technical_score": 96.1,
     "proximity_score": 98.6,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10437,7 +10796,8 @@
     "volume_score": 28.4,
     "technical_score": 100.0,
     "proximity_score": 74.2,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10466,7 +10826,8 @@
     "volume_score": 1.8,
     "technical_score": 100.0,
     "proximity_score": 32.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10495,7 +10856,8 @@
     "volume_score": 37.1,
     "technical_score": 97.3,
     "proximity_score": 46.8,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10524,7 +10886,8 @@
     "volume_score": 68.8,
     "technical_score": 100.0,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10553,7 +10916,8 @@
     "volume_score": 6.6,
     "technical_score": 100.0,
     "proximity_score": 65.7,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10582,7 +10946,8 @@
     "volume_score": 0.0,
     "technical_score": 94.7,
     "proximity_score": 38.1,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10611,7 +10976,8 @@
     "volume_score": 0.0,
     "technical_score": 97.4,
     "proximity_score": 99.1,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10640,7 +11006,8 @@
     "volume_score": 51.3,
     "technical_score": 92.4,
     "proximity_score": 46.3,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10669,7 +11036,8 @@
     "volume_score": 30.3,
     "technical_score": 100.0,
     "proximity_score": 39.7,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10698,7 +11066,8 @@
     "volume_score": 21.5,
     "technical_score": 83.2,
     "proximity_score": 64.3,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10727,7 +11096,8 @@
     "volume_score": 54.6,
     "technical_score": 93.2,
     "proximity_score": 32.3,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10756,7 +11126,8 @@
     "volume_score": 10.2,
     "technical_score": 100.0,
     "proximity_score": 39.2,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10785,7 +11156,8 @@
     "volume_score": 52.9,
     "technical_score": 90.8,
     "proximity_score": 79.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10814,7 +11186,8 @@
     "volume_score": 93.7,
     "technical_score": 91.5,
     "proximity_score": 95.8,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-08",
@@ -10843,7 +11216,8 @@
     "volume_score": 25.7,
     "technical_score": 95.1,
     "proximity_score": 20.4,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-15",
@@ -10872,7 +11246,8 @@
     "volume_score": 82.3,
     "technical_score": 90.0,
     "proximity_score": 100.0,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-04-22",
@@ -10901,7 +11276,8 @@
     "volume_score": 100.0,
     "technical_score": 73.3,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -10930,7 +11306,8 @@
     "volume_score": 35.8,
     "technical_score": 99.6,
     "proximity_score": 39.2,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -10959,7 +11336,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 98.9,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -10988,7 +11366,8 @@
     "volume_score": 26.0,
     "technical_score": 100.0,
     "proximity_score": 53.1,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11017,7 +11396,8 @@
     "volume_score": 21.7,
     "technical_score": 96.4,
     "proximity_score": 27.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11046,7 +11426,8 @@
     "volume_score": 15.3,
     "technical_score": 100.0,
     "proximity_score": 63.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11075,7 +11456,8 @@
     "volume_score": 88.6,
     "technical_score": 100.0,
     "proximity_score": 21.6,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11104,7 +11486,8 @@
     "volume_score": 15.7,
     "technical_score": 100.0,
     "proximity_score": 78.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11133,7 +11516,8 @@
     "volume_score": 90.9,
     "technical_score": 90.7,
     "proximity_score": 25.5,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11162,7 +11546,8 @@
     "volume_score": 86.8,
     "technical_score": 98.8,
     "proximity_score": 100.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11191,7 +11576,8 @@
     "volume_score": 28.8,
     "technical_score": 91.8,
     "proximity_score": 51.2,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11220,7 +11606,8 @@
     "volume_score": 12.3,
     "technical_score": 100.0,
     "proximity_score": 39.1,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11249,7 +11636,8 @@
     "volume_score": 0.0,
     "technical_score": 79.6,
     "proximity_score": 38.8,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11278,7 +11666,8 @@
     "volume_score": 4.4,
     "technical_score": 100.0,
     "proximity_score": 38.5,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11307,7 +11696,8 @@
     "volume_score": 4.4,
     "technical_score": 100.0,
     "proximity_score": 39.7,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11336,7 +11726,8 @@
     "volume_score": 0.0,
     "technical_score": 99.5,
     "proximity_score": 33.9,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11365,7 +11756,8 @@
     "volume_score": 52.2,
     "technical_score": 74.7,
     "proximity_score": 83.6,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11394,7 +11786,8 @@
     "volume_score": 100.0,
     "technical_score": 90.0,
     "proximity_score": 62.8,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11423,7 +11816,8 @@
     "volume_score": 45.1,
     "technical_score": 100.0,
     "proximity_score": 32.2,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11452,7 +11846,8 @@
     "volume_score": 0.0,
     "technical_score": 96.8,
     "proximity_score": 40.0,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-04-29",
@@ -11481,7 +11876,8 @@
     "volume_score": 19.5,
     "technical_score": 100.0,
     "proximity_score": 28.8,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-05-06",
@@ -11510,7 +11906,8 @@
     "volume_score": 69.9,
     "technical_score": 93.8,
     "proximity_score": 100.0,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11539,7 +11936,8 @@
     "volume_score": 8.0,
     "technical_score": 100.0,
     "proximity_score": 39.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11568,7 +11966,8 @@
     "volume_score": 0.0,
     "technical_score": 91.3,
     "proximity_score": 38.5,
-    "consistency_score": 60
+    "consistency_score": 60,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11597,7 +11996,8 @@
     "volume_score": 44.2,
     "technical_score": 100.0,
     "proximity_score": 98.2,
-    "consistency_score": 33.3
+    "consistency_score": 33.3,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11626,7 +12026,8 @@
     "volume_score": 45.2,
     "technical_score": 95.5,
     "proximity_score": 33.5,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11655,7 +12056,8 @@
     "volume_score": 3.0,
     "technical_score": 97.4,
     "proximity_score": 72.5,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11684,7 +12086,8 @@
     "volume_score": 65.1,
     "technical_score": 97.6,
     "proximity_score": 72.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11713,7 +12116,8 @@
     "volume_score": 15.7,
     "technical_score": 100.0,
     "proximity_score": 78.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11742,7 +12146,8 @@
     "volume_score": 78.6,
     "technical_score": 65.5,
     "proximity_score": 90.8,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11771,7 +12176,8 @@
     "volume_score": 0.0,
     "technical_score": 79.6,
     "proximity_score": 38.8,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11800,7 +12206,8 @@
     "volume_score": 20.7,
     "technical_score": 100.0,
     "proximity_score": 48.5,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11829,7 +12236,8 @@
     "volume_score": 22.6,
     "technical_score": 97.9,
     "proximity_score": 38.3,
-    "consistency_score": 80
+    "consistency_score": 80,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11858,7 +12266,8 @@
     "volume_score": 16.7,
     "technical_score": 98.5,
     "proximity_score": 64.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11887,7 +12296,8 @@
     "volume_score": 5.7,
     "technical_score": 100.0,
     "proximity_score": 39.3,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11916,7 +12326,8 @@
     "volume_score": 14.8,
     "technical_score": 100.0,
     "proximity_score": 38.7,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11945,7 +12356,8 @@
     "volume_score": 6.6,
     "technical_score": 100.0,
     "proximity_score": 61.1,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -11974,7 +12386,8 @@
     "volume_score": 3.6,
     "technical_score": 99.3,
     "proximity_score": 36.4,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -12003,7 +12416,8 @@
     "volume_score": 12.6,
     "technical_score": 66.7,
     "proximity_score": 38.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -12032,7 +12446,8 @@
     "volume_score": 10.5,
     "technical_score": 97.8,
     "proximity_score": 40.0,
-    "consistency_score": 66.7
+    "consistency_score": 66.7,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -12061,7 +12476,8 @@
     "volume_score": 0.0,
     "technical_score": 100.0,
     "proximity_score": 40.5,
-    "consistency_score": 100.0
+    "consistency_score": 100.0,
+    "board": "Utama"
   },
   {
     "date": "2026-05-13",
@@ -12090,586 +12506,7 @@
     "volume_score": 0.0,
     "technical_score": 99.2,
     "proximity_score": 37.4,
-    "consistency_score": 80
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "LCKM",
-    "score": 70.2,
-    "ml_prob": 0.4999,
-    "rank": 1,
-    "price": 165.0,
-    "ara_limit": 25.0,
-    "ara_price": 206.25,
-    "hit_ara": true,
-    "best_return": 36.97,
-    "price_change_1d": -14.948453608247423,
-    "price_change_3d": 47.32142857142857,
-    "price_change_5d": 50.0,
-    "volume_ratio": 3.7630246874755566,
-    "avg_volume_20d": 189916745,
-    "current_volume": 714661400,
-    "rsi": 57.30994152046784,
-    "bb_position": 0.8734789917004808,
-    "macd_bullish": 1,
-    "consecutive_up_days": 3,
-    "atr_pct_14": 16.19047619047619,
-    "ara_remaining_pct": 10.051546391752577,
-    "momentum_score": 66.9,
-    "volume_score": 30.7,
-    "technical_score": 100.0,
-    "proximity_score": 59.8,
-    "consistency_score": 100.0
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "MSIE",
-    "score": 64.6,
-    "ml_prob": 0.4902,
-    "rank": 2,
-    "price": 148.0,
-    "ara_limit": 25.0,
-    "ara_price": 185.0,
-    "hit_ara": false,
-    "best_return": 0.0,
-    "price_change_1d": 9.62962962962963,
-    "price_change_3d": 32.142857142857146,
-    "price_change_5d": 59.13978494623656,
-    "volume_ratio": 0.06850083401849927,
-    "avg_volume_20d": 11633435,
-    "current_volume": 796900,
-    "rsi": 92.24137931034483,
-    "bb_position": 1.0376087896323989,
-    "macd_bullish": 1,
-    "consecutive_up_days": 5,
-    "atr_pct_14": 6.274131274131274,
-    "ara_remaining_pct": 15.37037037037037,
-    "momentum_score": 100.0,
-    "volume_score": 0.0,
-    "technical_score": 91.3,
-    "proximity_score": 38.5,
-    "consistency_score": 60
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "KJEN",
-    "score": 67.8,
-    "ml_prob": 0.4711,
-    "rank": 3,
-    "price": 174.0,
-    "ara_limit": 25.0,
-    "ara_price": 217.5,
-    "hit_ara": false,
-    "best_return": 14.94,
-    "price_change_1d": 7.4074074074074066,
-    "price_change_3d": 10.828025477707007,
-    "price_change_5d": 12.258064516129032,
-    "volume_ratio": 8.705981262421432,
-    "avg_volume_20d": 27535575,
-    "current_volume": 239724200,
-    "rsi": 54.03225806451613,
-    "bb_position": 0.9605022024067394,
-    "macd_bullish": 1,
-    "consecutive_up_days": 3,
-    "atr_pct_14": 11.206896551724139,
-    "ara_remaining_pct": 17.592592592592595,
-    "momentum_score": 37.6,
-    "volume_score": 85.6,
-    "technical_score": 100.0,
-    "proximity_score": 29.6,
-    "consistency_score": 100.0
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "BAPA",
-    "score": 79.9,
-    "ml_prob": 0.4461,
-    "rank": 4,
-    "price": 238.0,
-    "ara_limit": 25.0,
-    "ara_price": 297.5,
-    "hit_ara": false,
-    "best_return": 0.0,
-    "price_change_1d": 19.597989949748744,
-    "price_change_3d": 46.913580246913575,
-    "price_change_5d": 21.428571428571427,
-    "volume_ratio": 2.411719770356272,
-    "avg_volume_20d": 301981685,
-    "current_volume": 728295200,
-    "rsi": 79.06137184115524,
-    "bb_position": 0.9792040188380102,
-    "macd_bullish": 1,
-    "consecutive_up_days": 3,
-    "atr_pct_14": 14.735894357743096,
-    "ara_remaining_pct": 5.402010050251256,
-    "momentum_score": 100.0,
-    "volume_score": 15.7,
-    "technical_score": 100.0,
-    "proximity_score": 78.4,
-    "consistency_score": 100.0
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "APLI",
-    "score": 79.1,
-    "ml_prob": 0.4385,
-    "rank": 5,
-    "price": 272.0,
-    "ara_limit": 25.0,
-    "ara_price": 340.0,
-    "hit_ara": false,
-    "best_return": 8.82,
-    "price_change_1d": 15.254237288135593,
-    "price_change_3d": 30.76923076923077,
-    "price_change_5d": 23.636363636363637,
-    "volume_ratio": 6.135672040074281,
-    "avg_volume_20d": 640810,
-    "current_volume": 3931800,
-    "rsi": 63.63636363636363,
-    "bb_position": 1.0390092109975286,
-    "macd_bullish": 1,
-    "consecutive_up_days": 4,
-    "atr_pct_14": 12.447478991596638,
-    "ara_remaining_pct": 9.745762711864407,
-    "momentum_score": 86.3,
-    "volume_score": 57.1,
-    "technical_score": 98.7,
-    "proximity_score": 61.0,
-    "consistency_score": 80
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "BOBA",
-    "score": 65.3,
-    "ml_prob": 0.4342,
-    "rank": 6,
-    "price": 316.0,
-    "ara_limit": 25.0,
-    "ara_price": 395.0,
-    "hit_ara": false,
-    "best_return": 0.0,
-    "price_change_1d": 24.409448818897637,
-    "price_change_3d": 14.492753623188406,
-    "price_change_5d": 14.492753623188406,
-    "volume_ratio": 1.3093221628310325,
-    "avg_volume_20d": 9859300,
-    "current_volume": 12909000,
-    "rsi": 57.06806282722513,
-    "bb_position": 0.8436184235849731,
-    "macd_bullish": 0,
-    "consecutive_up_days": 3,
-    "atr_pct_14": 14.466546112115733,
-    "ara_remaining_pct": 0.5905511811023629,
-    "momentum_score": 77.8,
-    "volume_score": 3.4,
-    "technical_score": 66.7,
-    "proximity_score": 97.6,
-    "consistency_score": 100.0
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "IBST",
-    "score": 61.0,
-    "ml_prob": 0.4265,
-    "rank": 7,
-    "price": 8475.0,
-    "ara_limit": 25.0,
-    "ara_price": 10593.75,
-    "hit_ara": false,
-    "best_return": 0.0,
-    "price_change_1d": 9.70873786407767,
-    "price_change_3d": 32.421875,
-    "price_change_5d": 32.421875,
-    "volume_ratio": 0.7003891050583657,
-    "avg_volume_20d": 1285,
-    "current_volume": 900,
-    "rsi": 99.38042131350682,
-    "bb_position": 1.1132073671567657,
-    "macd_bullish": 1,
-    "consecutive_up_days": 3,
-    "atr_pct_14": 4.150863885377159,
-    "ara_remaining_pct": 15.29126213592233,
-    "momentum_score": 84.3,
-    "volume_score": 0.0,
-    "technical_score": 79.6,
-    "proximity_score": 38.8,
-    "consistency_score": 100.0
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "PURA",
-    "score": 47.4,
-    "ml_prob": 0.4212,
-    "rank": 8,
-    "price": 40.0,
-    "ara_limit": 25.0,
-    "ara_price": 50.0,
-    "hit_ara": false,
-    "best_return": 10.0,
-    "price_change_1d": -9.090909090909092,
-    "price_change_3d": 8.108108108108109,
-    "price_change_5d": 29.03225806451613,
-    "volume_ratio": 3.037709731935866,
-    "avg_volume_20d": 19783885,
-    "current_volume": 60097700,
-    "rsi": 65.51724137931035,
-    "bb_position": 0.9258371934890193,
-    "macd_bullish": 1,
-    "consecutive_up_days": 4,
-    "atr_pct_14": 5.714285714285714,
-    "ara_remaining_pct": 15.909090909090908,
-    "momentum_score": 14.8,
-    "volume_score": 22.6,
-    "technical_score": 100.0,
-    "proximity_score": 36.4,
-    "consistency_score": 80
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "CTTH",
-    "score": 77.4,
-    "ml_prob": 0.397,
-    "rank": 9,
-    "price": 202.0,
-    "ara_limit": 25.0,
-    "ara_price": 252.5,
-    "hit_ara": false,
-    "best_return": 0.0,
-    "price_change_1d": 16.091954022988507,
-    "price_change_3d": 32.89473684210527,
-    "price_change_5d": 34.66666666666667,
-    "volume_ratio": 2.501995035014381,
-    "avg_volume_20d": 102203720,
-    "current_volume": 255713200,
-    "rsi": 83.33333333333333,
-    "bb_position": 1.0464193055382653,
-    "macd_bullish": 1,
-    "consecutive_up_days": 3,
-    "atr_pct_14": 12.093352192362094,
-    "ara_remaining_pct": 8.908045977011493,
-    "momentum_score": 99.4,
-    "volume_score": 16.7,
-    "technical_score": 98.5,
-    "proximity_score": 64.4,
-    "consistency_score": 100.0
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "UDNG",
-    "score": 42.1,
-    "ml_prob": 0.3784,
-    "rank": 10,
-    "price": 1340.0,
-    "ara_limit": 25.0,
-    "ara_price": 1675.0,
-    "hit_ara": false,
-    "best_return": 20.15,
-    "price_change_1d": -9.45945945945946,
-    "price_change_3d": 5.928853754940711,
-    "price_change_5d": 22.37442922374429,
-    "volume_ratio": 1.7234239750685592,
-    "avg_volume_20d": 2098555,
-    "current_volume": 3616700,
-    "rsi": 62.443438914027155,
-    "bb_position": 0.8036201832880664,
-    "macd_bullish": 1,
-    "consecutive_up_days": 4,
-    "atr_pct_14": 11.807036247334755,
-    "ara_remaining_pct": 15.54054054054054,
-    "momentum_score": 6.1,
-    "volume_score": 8.0,
-    "technical_score": 100.0,
-    "proximity_score": 37.8,
-    "consistency_score": 80
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "UNIC",
-    "score": 72.4,
-    "ml_prob": 0.3529,
-    "rank": 11,
-    "price": 14198.6611328125,
-    "ara_limit": 25.0,
-    "ara_price": 17748.33,
-    "hit_ara": false,
-    "best_return": 9.15,
-    "price_change_1d": 10.937501430646384,
-    "price_change_3d": 11.15460377790652,
-    "price_change_5d": 10.077523664190103,
-    "volume_ratio": 10.084033613445378,
-    "avg_volume_20d": 11305,
-    "current_volume": 114000,
-    "rsi": 77.27273534425609,
-    "bb_position": 1.2650931514644883,
-    "macd_bullish": 1,
-    "consecutive_up_days": 3,
-    "atr_pct_14": 4.061871699744746,
-    "ara_remaining_pct": 14.062498569353616,
-    "momentum_score": 43.3,
-    "volume_score": 100.0,
-    "technical_score": 91.2,
-    "proximity_score": 43.8,
-    "consistency_score": 100.0
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "BKDP",
-    "score": 38.4,
-    "ml_prob": 0.3199,
-    "rank": 12,
-    "price": 96.0,
-    "ara_limit": 25.0,
-    "ara_price": 120.0,
-    "hit_ara": true,
-    "best_return": 30.21,
-    "price_change_1d": -8.571428571428571,
-    "price_change_3d": -14.285714285714285,
-    "price_change_5d": 2.127659574468085,
-    "volume_ratio": 1.7285692352125817,
-    "avg_volume_20d": 4656915,
-    "current_volume": 8049800,
-    "rsi": 72.88135593220339,
-    "bb_position": 0.709711919866221,
-    "macd_bullish": 1,
-    "consecutive_up_days": 2,
-    "atr_pct_14": 6.770833333333333,
-    "ara_remaining_pct": 16.42857142857143,
-    "momentum_score": 0.0,
-    "volume_score": 8.1,
-    "technical_score": 100.0,
-    "proximity_score": 34.3,
-    "consistency_score": 66.7
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "ZONE",
-    "score": 43.4,
-    "ml_prob": 0.3187,
-    "rank": 13,
-    "price": 362.0,
-    "ara_limit": 25.0,
-    "ara_price": 452.5,
-    "hit_ara": true,
-    "best_return": 33.7,
-    "price_change_1d": -10.396039603960396,
-    "price_change_3d": 2.840909090909091,
-    "price_change_5d": 5.232558139534884,
-    "volume_ratio": 4.03510230710681,
-    "avg_volume_20d": 781715,
-    "current_volume": 3154300,
-    "rsi": 52.30769230769231,
-    "bb_position": 0.5096338483776013,
-    "macd_bullish": 1,
-    "consecutive_up_days": 2,
-    "atr_pct_14": 13.180741910023677,
-    "ara_remaining_pct": 14.603960396039604,
-    "momentum_score": 0.0,
-    "volume_score": 33.7,
-    "technical_score": 95.0,
-    "proximity_score": 41.6,
-    "consistency_score": 66.7
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "PACK",
-    "score": 40.7,
-    "ml_prob": 0.3177,
-    "rank": 14,
-    "price": 302.0,
-    "ara_limit": 25.0,
-    "ara_price": 377.5,
-    "hit_ara": false,
-    "best_return": 7.95,
-    "price_change_1d": -9.580838323353294,
-    "price_change_3d": -11.695906432748536,
-    "price_change_5d": 6.338028169014084,
-    "volume_ratio": 0.7748409099706934,
-    "avg_volume_20d": 358817270,
-    "current_volume": 278026300,
-    "rsi": 62.015503875968996,
-    "bb_position": 0.662633905610525,
-    "macd_bullish": 1,
-    "consecutive_up_days": 3,
-    "atr_pct_14": 11.447492904446547,
-    "ara_remaining_pct": 15.419161676646706,
-    "momentum_score": 0.0,
-    "volume_score": 0.0,
-    "technical_score": 100.0,
-    "proximity_score": 38.3,
-    "consistency_score": 100.0
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "MORA",
-    "score": 34.7,
-    "ml_prob": 0.307,
-    "rank": 15,
-    "price": 6500.0,
-    "ara_limit": 25.0,
-    "ara_price": 8125.0,
-    "hit_ara": true,
-    "best_return": 30.38,
-    "price_change_1d": -8.771929824561402,
-    "price_change_3d": -1.1406844106463878,
-    "price_change_5d": -15.032679738562091,
-    "volume_ratio": 1.5067199229778432,
-    "avg_volume_20d": 1921525,
-    "current_volume": 2895200,
-    "rsi": 58.138297872340424,
-    "bb_position": 0.6118685424745374,
-    "macd_bullish": 1,
-    "consecutive_up_days": 1,
-    "atr_pct_14": 17.0989010989011,
-    "ara_remaining_pct": 16.228070175438596,
-    "momentum_score": 0.0,
-    "volume_score": 5.6,
-    "technical_score": 100.0,
-    "proximity_score": 35.1,
-    "consistency_score": 33.3
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "BNBR",
-    "score": 36.1,
-    "ml_prob": 0.2997,
-    "rank": 16,
-    "price": 126.0,
-    "ara_limit": 25.0,
-    "ara_price": 157.5,
-    "hit_ara": false,
-    "best_return": 22.22,
-    "price_change_1d": 22.7272757673208,
-    "price_change_3d": 12.817617096012738,
-    "price_change_5d": -19.230769230769234,
-    "volume_ratio": 0.9495707328081784,
-    "avg_volume_20d": 1651284254,
-    "current_volume": 1568011200,
-    "rsi": 27.44755304916613,
-    "bb_position": 0.15601131038619742,
-    "macd_bullish": 0,
-    "consecutive_up_days": 2,
-    "atr_pct_14": 18.735572918742694,
-    "ara_remaining_pct": 2.2727242326791988,
-    "momentum_score": 45.5,
-    "volume_score": 0.0,
-    "technical_score": 8.7,
-    "proximity_score": 90.9,
-    "consistency_score": 66.7
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "ENAK",
-    "score": 42.2,
-    "ml_prob": 0.2966,
-    "rank": 17,
-    "price": 322.0,
-    "ara_limit": 25.0,
-    "ara_price": 402.5,
-    "hit_ara": false,
-    "best_return": 9.32,
-    "price_change_1d": 23.846153846153847,
-    "price_change_3d": 1.89873417721519,
-    "price_change_5d": -3.592814371257485,
-    "volume_ratio": 1.8515017089666206,
-    "avg_volume_20d": 481285,
-    "current_volume": 891100,
-    "rsi": 39.361702127659576,
-    "bb_position": 0.33414644198186394,
-    "macd_bullish": 0,
-    "consecutive_up_days": 1,
-    "atr_pct_14": 12.33362910381544,
-    "ara_remaining_pct": 1.1538461538461533,
-    "momentum_score": 47.1,
-    "volume_score": 9.5,
-    "technical_score": 34.2,
-    "proximity_score": 95.4,
-    "consistency_score": 33.3
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "INTD",
-    "score": 43.2,
-    "ml_prob": 0.2945,
-    "rank": 18,
-    "price": 254.0,
-    "ara_limit": 25.0,
-    "ara_price": 317.5,
-    "hit_ara": true,
-    "best_return": 37.8,
-    "price_change_1d": -11.188811188811188,
-    "price_change_3d": 5.833333333333333,
-    "price_change_5d": 6.722689075630252,
-    "volume_ratio": 3.3773290543787113,
-    "avg_volume_20d": 842885,
-    "current_volume": 2846700,
-    "rsi": 51.99999999999999,
-    "bb_position": 0.5643352506335562,
-    "macd_bullish": 1,
-    "consecutive_up_days": 2,
-    "atr_pct_14": 13.835770528683916,
-    "ara_remaining_pct": 13.811188811188812,
-    "momentum_score": 0.0,
-    "volume_score": 26.4,
-    "technical_score": 98.0,
-    "proximity_score": 44.8,
-    "consistency_score": 66.7
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "SOTS",
-    "score": 41.1,
-    "ml_prob": 0.2927,
-    "rank": 19,
-    "price": 875.0,
-    "ara_limit": 25.0,
-    "ara_price": 1093.75,
-    "hit_ara": false,
-    "best_return": 12.57,
-    "price_change_1d": 25.0,
-    "price_change_3d": 1.1560693641618496,
-    "price_change_5d": -2.7777777777777777,
-    "volume_ratio": 1.0636512456495124,
-    "avg_volume_20d": 1090395,
-    "current_volume": 1159800,
-    "rsi": 39.495798319327726,
-    "bb_position": 0.2795686035564769,
-    "macd_bullish": 0,
-    "consecutive_up_days": 1,
-    "atr_pct_14": 9.959183673469388,
-    "ara_remaining_pct": 0.0,
-    "momentum_score": 49.2,
-    "volume_score": 0.7,
-    "technical_score": 31.4,
-    "proximity_score": 100.0,
-    "consistency_score": 33.3
-  },
-  {
-    "date": "2026-05-20",
-    "ticker": "JMAS",
-    "score": 37.6,
-    "ml_prob": 0.2898,
-    "rank": 20,
-    "price": 264.0,
-    "ara_limit": 25.0,
-    "ara_price": 330.0,
-    "hit_ara": false,
-    "best_return": 21.21,
-    "price_change_1d": 7.317073170731707,
-    "price_change_3d": 6.451612903225806,
-    "price_change_5d": -0.7518796992481203,
-    "volume_ratio": 0.5871167397869775,
-    "avg_volume_20d": 2413830,
-    "current_volume": 1417200,
-    "rsi": 63.15789473684211,
-    "bb_position": 0.7143829008846154,
-    "macd_bullish": 0,
-    "consecutive_up_days": 3,
-    "atr_pct_14": 9.361471861471863,
-    "ara_remaining_pct": 17.682926829268293,
-    "momentum_score": 21.8,
-    "volume_score": 0.0,
-    "technical_score": 66.7,
-    "proximity_score": 29.3,
-    "consistency_score": 100.0
+    "consistency_score": 80,
+    "board": "Utama"
   }
 ]

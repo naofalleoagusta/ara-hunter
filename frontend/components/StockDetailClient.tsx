@@ -6,6 +6,7 @@ import dynamic from "next/dynamic"
 import { useStockDetail } from "@/lib/queries"
 import type { StockDetailResponse } from "@/lib/api"
 import ScoreBadge from "@/components/ScoreBadge"
+import MLConfidenceBadge from "@/components/MLConfidenceBadge"
 import StockRatingReasoning from "@/components/StockRatingReasoning"
 import MetricCard from "@/components/MetricCard"
 import Skeleton from "@/components/Skeleton"
@@ -104,7 +105,14 @@ export default function StockDetailClient({ ticker, initialData }: StockDetailCl
         <div>
           <div className="flex items-center gap-3 mb-1">
             <h1 className="text-3xl font-bold font-serif text-text">{ticker}</h1>
-            {d ? <ScoreBadge score={d.total_score} size="lg" showSignal /> : <span className="px-3 py-1 text-xs font-semibold text-text-muted bg-border rounded-lg">No scan data</span>}
+            {d ? (
+              <div className="flex items-center gap-2">
+                <MLConfidenceBadge prob={d.ml_prob} size="lg" />
+                <ScoreBadge score={d.total_score} size="lg" showSignal />
+              </div>
+            ) : (
+              <span className="px-3 py-1 text-xs font-semibold text-text-muted bg-border rounded-lg">No scan data</span>
+            )}
           </div>
           {currentPrice != null && (
             <div className="flex items-center gap-3 mt-3">
@@ -185,6 +193,7 @@ export default function StockDetailClient({ ticker, initialData }: StockDetailCl
           macdBullish={d.macd_bullish}
           araProximityPct={d.ara_proximity_pct}
           consecutiveUpDays={d.consecutive_up_days}
+          mlProb={d.ml_prob}
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <RadarScoreCard
@@ -197,6 +206,12 @@ export default function StockDetailClient({ ticker, initialData }: StockDetailCl
             }}
           />
           <div className="grid grid-cols-2 gap-4">
+            <MetricCard
+              label="ML Confidence"
+              value={d.ml_prob != null ? `${(d.ml_prob * 100).toFixed(0)}%` : "-"}
+              delta={d.ml_prob != null ? (d.ml_prob >= 0.6 ? "High" : d.ml_prob >= 0.5 ? "Medium" : "Low") : null}
+              trend={d.ml_prob != null ? (d.ml_prob >= 0.6 ? "up" : d.ml_prob >= 0.5 ? "up" : "down") : null}
+            />
             <MetricCard label="Volume Ratio" value={d.volume_ratio ? `${d.volume_ratio.toFixed(1)}x` : "-"} />
             <MetricCard
               label="RSI (14)"
@@ -256,6 +271,7 @@ export default function StockDetailClient({ ticker, initialData }: StockDetailCl
                 <tr className="border-b border-border">
                   <th className="px-5 py-3 text-left text-xs font-semibold text-text-muted uppercase">Scan</th>
                   <th className="px-5 py-3 text-left text-xs font-semibold text-text-muted uppercase">Score</th>
+                  <th className="px-5 py-3 text-left text-xs font-semibold text-text-muted uppercase">Prob</th>
                   <th className="px-5 py-3 text-left text-xs font-semibold text-text-muted uppercase">Price</th>
                   <th className="px-5 py-3 text-left text-xs font-semibold text-text-muted uppercase">1D</th>
                   <th className="px-5 py-3 text-left text-xs font-semibold text-text-muted uppercase hidden md:table-cell">Vol Ratio</th>
@@ -272,6 +288,9 @@ export default function StockDetailClient({ ticker, initialData }: StockDetailCl
                     </td>
                     <td className="px-5 py-3">
                       <ScoreBadge score={r.total_score} size="sm" />
+                    </td>
+                    <td className="px-5 py-3 font-medium whitespace-nowrap">
+                      {r.ml_prob != null ? `${(r.ml_prob * 100).toFixed(0)}%` : "-"}
                     </td>
                     <td className="px-5 py-3 text-text font-medium whitespace-nowrap">
                       {r.price ? `Rp${r.price.toLocaleString("id-ID", { minimumFractionDigits: 0 })}` : "-"}

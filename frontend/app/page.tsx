@@ -5,6 +5,7 @@ import Link from "next/link"
 import { useQueryClient } from "@tanstack/react-query"
 import { useHistory, useMovers, useScanResults, useStartScan } from "@/lib/queries"
 import ScoreBadge from "@/components/ScoreBadge"
+import MLConfidenceBadge from "@/components/MLConfidenceBadge"
 import StatusDot from "@/components/StatusDot"
 import MetricCard from "@/components/MetricCard"
 import Skeleton from "@/components/Skeleton"
@@ -21,7 +22,7 @@ export default function Dashboard() {
   const [scanStatus, setScanStatus] = useState<"idle" | "scanning" | "polling">("idle")
   const [scanError, setScanError] = useState<string | null>(null)
 
-  const { data: history, isLoading: historyLoading } = useHistory({
+  const { data: history, isLoading: historyLoading, refetch: refetchHistory } = useHistory({
     variables: { limit: 5 },
   })
 
@@ -30,7 +31,7 @@ export default function Dashboard() {
   const latestId = activeSessionId ?? (history?.[0]?.id ?? null)
 
   const { data: latestScan, isLoading: scanLoading } = useScanResults({
-    variables: { sessionId: latestId!, sort: "total_score", order: "desc", minScore: 0, limit: 10 },
+    variables: { sessionId: latestId!, sort: "ml_prob", order: "desc", minScore: 0, limit: 10 },
     enabled: latestId != null,
     refetchInterval: scanStatus === "polling" ? 3000 : false,
   })
@@ -59,8 +60,23 @@ export default function Dashboard() {
     setScanStatus("scanning")
     try {
       await triggerScan()
-    } catch (err) {
-      if (err instanceof Error) setScanError(err.message)
+    } catch (err: any) {
+      if (err?.status === 409) {
+        const sid = err?.body?.detail?.session_id
+        if (sid != null) {
+          setActiveSessionId(sid)
+          setScanStatus("polling")
+          return
+        }
+        const { data: fresh } = await refetchHistory()
+        const running = fresh?.find((s) => s.status === "running")
+        if (running) {
+          setActiveSessionId(running.id)
+          setScanStatus("polling")
+          return
+        }
+      }
+      setScanError(err?.message ?? "Scan failed")
       setScanStatus("idle")
     }
   }
@@ -156,9 +172,10 @@ export default function Dashboard() {
         ) : (
           <>
             <MetricCard
-              label="Last Score"
-              value={latestScan?.session.top_score?.toFixed(1) ?? "-"}
-              trend={null}
+              label="Top ML Confidence"
+              value={latestScan?.results?.[0]?.ml_prob != null ? `${(latestScan.results[0].ml_prob * 100).toFixed(0)}%` : "-"}
+              delta={latestScan?.results?.[0]?.ml_prob != null ? (latestScan.results[0].ml_prob >= 0.6 ? "High" : latestScan.results[0].ml_prob >= 0.5 ? "Medium" : "Low") : null}
+              trend={latestScan?.results?.[0]?.ml_prob != null ? (latestScan.results[0].ml_prob >= 0.5 ? "up" : "down") : null}
             />
             <MetricCard
               label="Stocks Scanned"
@@ -244,18 +261,21 @@ export default function Dashboard() {
               <h2 className="text-lg font-bold font-serif text-text">
                 {scanStatus !== "idle" ? "Current Scan" : "Last Scan Results"}
               </h2>
-              {latestScan.results.filter(r => r.total_score != null && r.total_score >= 50).length > 0 && (
-                <p className="text-xs text-green mt-1 font-medium">
-                  {latestScan.results.filter(r => r.total_score != null && r.total_score >= 50).length} buy signals detected
-                </p>
-              )}
+              {(() => {
+                const mlCount = latestScan.results.filter(r => r.ml_prob != null && r.ml_prob >= 0.6).length
+                return mlCount > 0 ? (
+                  <p className="text-xs text-green mt-1 font-medium">
+                    {mlCount} high-confidence signals detected
+                  </p>
+                ) : null
+              })()}
             </div>
             <div className="flex items-center gap-3">
               <Link
-                href={`/results/${latestScan.session.id}?buy=1`}
+                href={`/results/${latestScan.session.id}`}
                 className="text-sm font-medium text-green hover:text-green/80 transition duration-200"
               >
-                Buy signals &rarr;
+                High confidence &rarr;
               </Link>
               <Link
                 href={`/results/${latestScan.session.id}`}
@@ -277,7 +297,10 @@ export default function Dashboard() {
                     <span className="text-lg font-bold text-text group-hover:text-accent transition duration-200">{r.ticker}</span>
                     <p className="text-xs text-text-muted mt-0.5 line-clamp-1">{r.company_name || "-"}</p>
                   </div>
-                  <ScoreBadge score={r.total_score} />
+                  <div className="flex items-center gap-1.5">
+                    <MLConfidenceBadge prob={r.ml_prob} size="sm" />
+                    <ScoreBadge score={r.total_score} size="sm" />
+                  </div>
                 </div>
                 <div className="flex items-center gap-4 mt-3">
                   <span className="text-sm font-medium text-text">

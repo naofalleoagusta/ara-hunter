@@ -15,11 +15,14 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from data.yahoo_fetcher import calculate_indicators
 from screening.indicators import get_ara_limit_pct, calculate_ara_remaining_pct
 from screening.scorer import compute_total_score
+from ara_ml import predict_ara_probability
 
 STOCKS_JSON = os.path.join(os.path.dirname(__file__), "data", "stocks.json")
 PROFILES_JSON = os.path.join(os.path.dirname(__file__), "data", "profiles.json")
 RESULTS_FILE = os.path.join(os.path.dirname(__file__), "backtest_results.json")
 TOP_N = 20
+ML_CANDIDATE_POOL = 50
+PROB_THRESHOLD = 0.60
 LOOKAHEAD = 5
 BATCH_SIZE = 100
 
@@ -98,14 +101,14 @@ def run_backtest():
     universe = [p["kode"] for p in profiles if p.get("kode")]
     board_map = {p["kode"]: p.get("papan", "Utama") for p in profiles if p.get("kode")}
 
-    dates = get_weekly_dates(weeks_back=26)
+    dates = get_weekly_dates(weeks_back=52)
     today = datetime.now().date()
     dates = [d for d in dates if d + timedelta(days=LOOKAHEAD * 2 + 2) <= today]
 
     print(f"\nRunning backtest on {len(universe)} stocks over {len(dates)} weeks")
     print(f"Period: {dates[0]} to {dates[-1]} ({len(dates)} weeks)\n")
 
-    full_start = dates[0] - timedelta(days=150)
+    full_start = dates[0] - timedelta(days=180)
     full_end = dates[-1] + timedelta(days=LOOKAHEAD * 2 + 2) + timedelta(days=1)
     print(f"Downloading data: {full_start} to {full_end}")
     all_data = batch_download(universe, full_start, full_end)
@@ -147,10 +150,20 @@ def run_backtest():
                 "price": price,
                 "ara_limit_pct": ara_limit,
                 "total_score": total,
+                "indicators": indicators,
+                "scores": scores,
             })
 
         scored.sort(key=lambda x: x["total_score"], reverse=True)
-        top = scored[:TOP_N]
+        candidates = scored[:ML_CANDIDATE_POOL]
+
+        for c in candidates:
+            c["ml_prob"] = predict_ara_probability(c["indicators"], c["scores"])
+
+        candidates.sort(key=lambda x: x["ml_prob"], reverse=True)
+        top = [c for c in candidates if c["ml_prob"] >= PROB_THRESHOLD]
+        if not top:
+            top = candidates[:TOP_N]
 
         fwd_start = pd.Timestamp(d + timedelta(days=1))
         fwd_end = pd.Timestamp(d + timedelta(days=12))
@@ -176,16 +189,36 @@ def run_backtest():
                             float((check_df["High"].max() / price_on_d - 1) * 100), 2
                         )
 
+            ind = stock.get("indicators", {})
+            sub = stock.get("scores", {})
             all_results.append({
                 "date": d.isoformat(),
                 "ticker": ticker,
                 "score": stock["total_score"],
+                "ml_prob": stock.get("ml_prob", 0),
                 "rank": rank,
                 "price": price_on_d,
                 "ara_limit": ara_limit,
                 "ara_price": round(ara_price, 2),
                 "hit_ara": hit_ara,
                 "best_return": best_return,
+                "price_change_1d": ind.get("price_change_1d"),
+                "price_change_3d": ind.get("price_change_3d"),
+                "price_change_5d": ind.get("price_change_5d"),
+                "volume_ratio": ind.get("volume_ratio"),
+                "avg_volume_20d": ind.get("avg_volume_20d"),
+                "current_volume": ind.get("current_volume"),
+                "rsi": ind.get("rsi"),
+                "bb_position": ind.get("bb_position"),
+                "macd_bullish": ind.get("macd_bullish"),
+                "consecutive_up_days": ind.get("consecutive_up_days"),
+                "atr_pct_14": ind.get("atr_pct_14"),
+                "ara_remaining_pct": ind.get("ara_remaining_pct"),
+                "momentum_score": sub.get("momentum_score"),
+                "volume_score": sub.get("volume_score"),
+                "technical_score": sub.get("technical_score"),
+                "proximity_score": sub.get("proximity_score"),
+                "consistency_score": sub.get("consistency_score"),
             })
 
     generate_report(all_results, dates)
@@ -205,11 +238,24 @@ def generate_report(results, dates):
     print(f"Total observations: {len(results)}")
     print()
 
-    for k in [5, 10, 20]:
+    for k in [1, 3, 5, 10, 20]:
         top_k = [r for r in results if r["rank"] <= k]
         hits = sum(1 for r in top_k if r["hit_ara"])
         pct = (hits / len(top_k) * 100) if top_k else 0
         print(f"Precision@{k}: {pct:.1f}%  (top {k} -> hit ARA within {LOOKAHEAD} days)")
+
+    ml_high = [r for r in results if r.get("ml_prob", 0) >= 0.5]
+    if ml_high:
+        hits = sum(1 for r in ml_high if r["hit_ara"])
+        print(f"\nML prob >= 0.5: {hits}/{len(ml_high)} = {hits/len(ml_high)*100:.1f}%")
+    ml_high = [r for r in results if r.get("ml_prob", 0) >= 0.6]
+    if ml_high:
+        hits = sum(1 for r in ml_high if r["hit_ara"])
+        print(f"ML prob >= 0.6: {hits}/{len(ml_high)} = {hits/len(ml_high)*100:.1f}%")
+    ml_high = [r for r in results if r.get("ml_prob", 0) >= 0.7]
+    if ml_high:
+        hits = sum(1 for r in ml_high if r["hit_ara"])
+        print(f"ML prob >= 0.7: {hits}/{len(ml_high)} = {hits/len(ml_high)*100:.1f}%")
 
     print("\nScore Bracket Analysis:")
     brackets = [

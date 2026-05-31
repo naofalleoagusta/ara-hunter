@@ -8,6 +8,7 @@ from data.idx_client import IDXClient
 from data.yahoo_fetcher import fetch_historical, calculate_indicators
 from screening.indicators import get_ara_limit_pct, calculate_ara_remaining_pct
 from screening.scorer import compute_total_score
+from ara_ml import predict_ara_probability
 from models import ScreeningSession, ScreeningResult, MarketSnapshot
 
 logger = logging.getLogger(__name__)
@@ -50,6 +51,7 @@ def run_screening(db: Session, session: ScreeningSession | None = None) -> int:
             indicators["ara_remaining_pct"] = ara_remaining
 
             scores = compute_total_score(indicators)
+            ml_prob = predict_ara_probability(indicators, scores)
 
             scored_stocks.append({
                 "ticker": ticker,
@@ -69,6 +71,7 @@ def run_screening(db: Session, session: ScreeningSession | None = None) -> int:
                 "consecutive_up_days": indicators.get("consecutive_up_days"),
                 "ara_limit_pct": ara_limit,
                 "ara_proximity_pct": ara_remaining,
+                "ml_prob": ml_prob,
                 **scores,
             })
 
@@ -82,7 +85,7 @@ def run_screening(db: Session, session: ScreeningSession | None = None) -> int:
             logger.warning(f"Error processing {ticker}: {e}")
             continue
 
-    scored_stocks.sort(key=lambda x: x.get("total_score", 0) or 0, reverse=True)
+    scored_stocks.sort(key=lambda x: x.get("ml_prob", 0) or 0, reverse=True)
 
     for stock in scored_stocks:
         result = ScreeningResult(
@@ -110,6 +113,7 @@ def run_screening(db: Session, session: ScreeningSession | None = None) -> int:
             proximity_score=stock["proximity_score"],
             consistency_score=stock["consistency_score"],
             total_score=stock["total_score"],
+            ml_prob=stock["ml_prob"],
         )
         db.add(result)
 

@@ -9,10 +9,10 @@ from fastapi import FastAPI, Depends, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
-from sqlalchemy import desc
+from sqlalchemy import desc, text
 
 from config import settings
-from database import engine, Base, get_db
+from database import engine, Base, SessionLocal, get_db
 from models import ScreeningSession, ScreeningResult, MarketSnapshot
 from screening.engine import run_screening
 
@@ -24,6 +24,27 @@ logger = logging.getLogger("ara-hunter")
 async def lifespan(app: FastAPI):
     Base.metadata.create_all(bind=engine)
     logger.info("Database tables created")
+
+    try:
+        with engine.connect() as conn:
+            conn.execute(text("ALTER TABLE screening_results ADD COLUMN ml_prob FLOAT"))
+            conn.commit()
+        logger.info("Migration: added ml_prob column to screening_results")
+    except Exception:
+        pass
+
+    db = SessionLocal()
+    try:
+        stale = db.query(ScreeningSession).filter(ScreeningSession.status == "running").all()
+        for s in stale:
+            s.status = "failed"
+            s.error_message = "Scan interrupted on server restart"
+            logger.warning(f"Expired stale scan session #{s.id}")
+        if stale:
+            db.commit()
+    finally:
+        db.close()
+
     yield
 
 
@@ -68,6 +89,7 @@ class StockResultOut(BaseModel):
     proximity_score: Optional[float] = None
     consistency_score: Optional[float] = None
     total_score: Optional[float] = None
+    ml_prob: Optional[float] = None
 
     class Config:
         from_attributes = True
@@ -112,7 +134,10 @@ def classify_signal(score: float | None) -> str:
 async def start_scan(background_tasks: BackgroundTasks, db: Session = Depends(get_db)):
     running = db.query(ScreeningSession).filter(ScreeningSession.status == "running").first()
     if running:
-        raise HTTPException(status_code=409, detail=f"A scan (session #{running.id}) is already in progress")
+        raise HTTPException(
+            status_code=409,
+            detail={"message": f"Scan session #{running.id} is already in progress", "session_id": running.id},
+        )
     session = ScreeningSession(status="running", stocks_scanned=0)
     db.add(session)
     db.commit()
